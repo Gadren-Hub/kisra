@@ -1,0 +1,2289 @@
+<!doctype html>
+<html class="light" dir="rtl" lang="ar">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>كسرة - مطبخ سحابي فاخر</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100..900&amp;family=Work+Sans:wght@300;400;500;600;700;900&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+      rel="stylesheet"
+    />
+    <style type="text/tailwindcss">
+      @layer utilities {
+        .no-scrollbar::-webkit-scrollbar {
+          display: none;
+        }
+        .no-scrollbar {
+          -ms-overflow-style: none;
+          scrollbar-width: none;
+        }
+      }
+      :root {
+        --primary: #ec6d13;
+        --charcoal: #181411;
+      }
+      body {
+        font-family: "Noto Sans Arabic", "Work Sans", sans-serif;
+      }
+    </style>
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: "#ec6d13",
+              "background-light": "#f8f7f6",
+              "background-dark": "#221810",
+              charcoal: "#181411",
+              muted: "#897261",
+            },
+            fontFamily: {
+              display: ["Noto Sans Arabic", "sans-serif"],
+              signature: ["Great Vibes", "cursive"],
+            },
+            borderRadius: {
+              DEFAULT: "0.25rem",
+              lg: "0.5rem",
+              xl: "0.75rem",
+              full: "9999px",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body
+    class="bg-background-light dark:bg-background-dark font-display text-charcoal dark:text-white transition-colors duration-300"
+  >
+    <!-- Top Nav Bar -->
+
+    <div class="relative flex min-h-screen flex-col overflow-x-hidden">
+      <div
+        class="fixed top-0 z-50 w-full border-b border-solid border-charcoal/5 bg-background-light/80 backdrop-blur-md dark:border-white/10 dark:bg-background-dark/80"
+      >
+        <div
+          class="mx-auto flex max-w-[1280px] items-center justify-between px-6 py-3 lg:px-20"
+        >
+          <div class="flex items-center">
+            <img
+              alt="KISRA Logo"
+              class="h-12 w-auto object-contain"
+              src="https://ik.imagekit.io/Gadrenkit/KisraMedia/logo.png"
+            />
+          </div>
+          <div
+            class="hidden flex-1 items-center justify-start gap-10 md:flex pr-12"
+          >
+            <nav class="flex items-center gap-8">
+              <a
+                class="text-sm font-semibold text-charcoal hover:text-primary dark:text-white dark:hover:text-primary"
+                href="#"
+                >الرئيسية</a
+              >
+              <a
+                class="text-sm font-semibold text-charcoal/70 hover:text-primary dark:text-white/70 dark:hover:text-primary"
+                href="#why-us"
+                >لماذا نحن</a
+              >
+              <a
+                class="text-sm font-semibold text-charcoal/70 hover:text-primary dark:text-white/70 dark:hover:text-primary"
+                href="#our-story"
+                >قصتنا</a
+              >
+              <a
+                class="text-sm font-semibold text-charcoal/70 hover:text-primary dark:text-white/70 dark:hover:text-primary"
+                href="#menu"
+                >القائمة</a
+              >
+              <a
+                class="text-sm font-semibold text-charcoal/70 hover:text-primary dark:text-white/70 dark:hover:text-primary"
+                href="#catering"
+                >مناسباتنا</a
+              >
+              <a
+                class="text-sm font-semibold text-charcoal/70 hover:text-primary dark:text-white/70 dark:hover:text-primary"
+                href="#reviews"
+                >آراء العملاء</a
+              >
+              <a
+                class="text-sm font-semibold text-charcoal/70 hover:text-primary dark:text-white/70 dark:hover:text-primary"
+                href="#contact"
+                >اتصل بنا</a
+              >
+            </nav>
+          </div>
+          <div class="hidden md:block">
+            <a
+              href="https://wa.me/249912544242"
+              class="flex h-10 min-w-[120px] items-center justify-center rounded-lg bg-primary px-6 text-sm font-bold text-white shadow-lg shadow-primary/20 transition-transform hover:scale-105 active:scale-95"
+            >
+              اطلب الآن
+            </a>
+          </div>
+          <div class="md:hidden">
+            <span
+              class="material-symbols-outlined text-charcoal dark:text-white"
+              >menu</span
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero section -->
+
+      <main class="flex-grow pt-20">
+        <div class="mx-auto flex max-w-[1280px] flex-col px-4 py-8 lg:px-10">
+          <div class="@container">
+            <div class="relative overflow-hidden rounded-xl bg-charcoal">
+              <div
+                class="flex min-h-[600px] flex-col items-start justify-end bg-cover bg-center bg-no-repeat p-8 @[480px]:min-h-[720px] @[480px]:p-16"
+                style="
+                  background-image:
+                    linear-gradient(
+                      to left,
+                      rgba(0, 0, 0, 0.8) 0%,
+                      rgba(0, 0, 0, 0.2) 60%,
+                      rgba(0, 0, 0, 0) 100%
+                    ),
+                    url(&quot;https://ik.imagekit.io/Gadrenkit/KisraMedia/hero.png&quot;);
+                "
+              >
+                <div class="max-w-[640px] space-y-6 text-right">
+                  <!-- <div
+                    class="inline-flex items-center gap-2 rounded-full bg-primary/20 px-3 py-1 backdrop-blur-sm"
+                  >
+                    <span class="material-symbols-outlined text-primary text-sm"
+                      >auto_awesome</span
+                    >
+                    <span
+                      class="text-xs font-bold uppercase tracking-widest text-primary"
+                      >تميز بإشراف الشيف</span
+                    >
+                  </div> -->
+                  <h1
+                    class="text-4xl font-black leading-[1.2] text-white @[480px]:text-6xl lg:text-7xl"
+                  >
+                    وجبات شهية و نكهات مميزة تصلك حتى
+                    <span class="text-primary italic">باب منزلك</span>
+                  </h1>
+                  <p
+                    class="max-w-[500px] text-base font-normal leading-relaxed text-white/80 @[480px]:text-lg"
+                  >
+                    علينا التجهيز و عليكم التقديم الاستمتاع بألذ الاصناف
+                  </p>
+                  <div class="flex flex-wrap gap-4 pt-4">
+                    <!-- <button
+                      class="flex h-12 min-w-[160px] items-center justify-center gap-2 rounded-lg bg-primary px-8 text-base font-bold text-white shadow-xl shadow-primary/30 transition-all hover:bg-primary/90"
+                      href="#menu"
+                    >
+                      <span class="material-symbols-outlined text-xl"
+                        >restaurant</span
+                      >
+                      عرض القائمة
+                    </button> -->
+                    <a
+                      href="#menu"
+                      class="flex h-10 min-w-[120px] items-center justify-center rounded-lg bg-primary px-6 text-sm font-bold text-white shadow-lg shadow-primary/20 transition-transform hover:scale-105 active:scale-95"
+                    >
+                      عرض القائمة
+                    </a>
+
+                    <a
+                      href="#contact"
+                      class="flex h-10 min-w-[120px] items-center justify-center rounded-lg bg-primary px-6 text-sm font-bold text-white shadow-lg shadow-primary/20 transition-transform hover:scale-105 active:scale-95"
+                    >
+                      اتصل الان
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Why KISRA -->
+          <div class="flex flex-col gap-12 py-20 scroll-mt-24" id="why-us">
+            <div class="flex flex-col gap-4 text-center items-center">
+              <h2
+                class="max-w-[720px] text-3xl font-black tracking-tight text-charcoal dark:text-white md:text-5xl"
+              >
+                لماذا تختار كسرة؟
+              </h2>
+              <p class="max-w-[600px] text-lg font-medium text-muted">
+                نحن ننقل تجربة المذاق الشهي مباشرة إلى طاولة طعامك دون عناء.
+              </p>
+            </div>
+            <div class="grid grid-cols-1 gap-6 md:grid-cols-3">
+              <div
+                class="group flex flex-col gap-6 rounded-xl border border-charcoal/5 bg-white p-8 transition-all hover:border-primary/20 hover:shadow-xl dark:border-white/10 dark:bg-background-dark"
+              >
+                <div
+                  class="flex h-14 w-14 items-center justify-center rounded-xl bg-primary/10 text-primary transition-colors group-hover:bg-primary group-hover:text-white"
+                >
+                  <span class="material-symbols-outlined text-3xl"
+                    >schedule</span
+                  >
+                </div>
+                <div class="flex flex-col gap-2 text-right">
+                  <h3 class="text-xl font-bold text-charcoal dark:text-white">
+                    الالتزام بالوقت
+                  </h3>
+                  <p class="text-muted leading-relaxed">
+                    نحن نقدر وقتك، لذا نلتزم بدقة المواعيد لضمان وصول وجبتك
+                    طازجة وفي الوقت المحدد تماماً بكل موثوقية.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="group flex flex-col gap-6 rounded-xl border border-charcoal/5 bg-white p-8 transition-all hover:border-primary/20 hover:shadow-xl dark:border-white/10 dark:bg-background-dark"
+              >
+                <div
+                  class="flex h-14 w-14 items-center justify-center rounded-xl bg-primary/10 text-primary transition-colors group-hover:bg-primary group-hover:text-white"
+                >
+                  <span class="material-symbols-outlined text-3xl"
+                    >skillet</span
+                  >
+                </div>
+                <div class="flex flex-col gap-2 text-right">
+                  <h3 class="text-xl font-bold text-charcoal dark:text-white">
+                    بإشراف الخبراء
+                  </h3>
+                  <p class="text-muted leading-relaxed">
+                    قائمتنا تضم اصناف متنوعة لارضاء جميع الاذواق مصنوعة بأيدي
+                    خبيرة
+                  </p>
+                </div>
+              </div>
+              <div
+                class="group flex flex-col gap-6 rounded-xl border border-charcoal/5 bg-white p-8 transition-all hover:border-primary/20 hover:shadow-xl dark:border-white/10 dark:bg-background-dark"
+              >
+                <div
+                  class="flex h-14 w-14 items-center justify-center rounded-xl bg-primary/10 text-primary transition-colors group-hover:bg-primary group-hover:text-white"
+                >
+                  <span class="material-symbols-outlined text-3xl">eco</span>
+                </div>
+                <div class="flex flex-col gap-2 text-right">
+                  <h3 class="text-xl font-bold text-charcoal dark:text-white">
+                    مكونات طازجة
+                  </h3>
+                  <p class="text-muted leading-relaxed">
+                    يتم اختيارها بدقة و عناية لضمان أعلى مستويات النكهة والقيمة
+                    الغذائية.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Our Story -->
+          <section
+            class="grid grid-cols-1 items-center gap-12 py-24 md:grid-cols-2 scroll-mt-24"
+            id="our-story"
+          >
+            <div class="flex flex-col gap-8 lg:pr-10 text-right">
+              <div class="flex flex-col gap-3">
+                <span
+                  class="text-sm font-bold uppercase tracking-widest text-primary"
+                  >قصتنا</span
+                >
+                <h2
+                  class="text-4xl font-black tracking-tight text-charcoal dark:text-white lg:text-5xl"
+                >
+                  صناعة <span class="text-primary">التميز</span> في الطهي
+                </h2>
+              </div>
+              <div
+                class="flex flex-col gap-6 text-lg leading-relaxed text-muted"
+              >
+                <p>
+                  تأسست كسرة بناءً على الإيمان بأن تجربة الطعام الفاخر لا ينبغي
+                  أن تقتصر على الجدران الأربعة للمطاعم، حيث بدأت كسرة كتجربة
+                  مطبخ متواضعة. مطبخ سحابي انطلق منذ عام 2024، واستطاع خلال فترة
+                  قصيرة أن يرسّخ مكانته كأحد الروّاد في مجال تحضير الوجبات
+                  الجاهزة، والطبخ المنزلي الصحي، مع القدرة على تلبية جميع
+                  المناسبات ووجبات العمل باحترافية عالية. مطبخ كسرة قدر لم يكن
+                  مجرد مطبخ، بل أسلوب حياة جديد لكثير من الأسر والأفراد؛ حيث
+                  أصبح جزءًا من روتينهم اليومي من خلال توفير الوقت وتقديم وجبات
+                  صحية وشهية تلبي مختلف الأذواق.
+                </p>
+                <p>
+                  . تميّز المطبخ باحترافية عالية في تجهيز الوجبات للشركات
+                  والمؤسسات، وتنظيم الطلبات للمناسبات الخاصة، مع الالتزام
+                  بالجودة، الدقة، والتقديم الراقي في كل صنف. كل طبق هو شهادة على
+                  التزامنا بقيم الطعام الأصيل، المقدم بسرعة ودقة العصر الحديث.
+                </p>
+
+                <p class="max-w-[600px] text-lg font-medium text-muted">.</p>
+              </div>
+              <div class="mt-4 flex flex-col gap-2">
+                <p
+                  class="font-signature text-4xl text-charcoal dark:text-white"
+                  dir="ltr"
+                >
+                  💙 شيف سارة
+                </p>
+                <p
+                  class="text-sm font-bold uppercase tracking-tighter text-muted"
+                >
+                  الشيف التنفيذي والمؤسس
+                </p>
+              </div>
+            </div>
+            <div class="relative">
+              <div
+                class="absolute -right-4 -top-4 h-full w-full rounded-2xl border-2 border-primary/20"
+              ></div>
+              <div
+                class="relative aspect-[4/5] overflow-hidden rounded-2xl shadow-2xl"
+              >
+                <img
+                  alt="Chef Amara Vance in a modern kitchen"
+                  class="h-full w-full object-cover"
+                  src="https://ik.imagekit.io/Gadrenkit/KisraMedia/images/chef.png"
+                />
+                <div
+                  class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-8 text-right"
+                >
+                  <p
+                    class="text-xs font-bold uppercase tracking-widest text-primary"
+                  >
+                    تسليط الضوء على الشيف
+                  </p>
+                  <h4 class="text-2xl font-bold text-white">سارة</h4>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- KISRA Menu -->
+          <section class="flex flex-col gap-12 py-20 scroll-mt-24" id="menu">
+            <div class="flex flex-col gap-4 text-center items-center">
+              <h2
+                class="max-w-[720px] text-3xl font-black tracking-tight text-charcoal dark:text-white md:text-5xl"
+              >
+                استكشف قائمتنا
+              </h2>
+              <p class="max-w-[600px] text-lg font-medium text-muted">
+                سيمفونية من النكهات مباشرة الي موائدكم.
+              </p>
+              <div
+                class="mt-4 inline-flex items-center gap-3 rounded-xl border border-primary/20 bg-primary/5 px-6 py-4 text-right"
+              >
+                <span class="material-symbols-outlined text-primary text-2xl"
+                  >info</span
+                >
+                <p
+                  class="text-sm font-bold text-charcoal dark:text-white md:text-base"
+                >
+                  يرجى ملاحظة: يجب تقديم الطلبات قبل
+                  <span class="text-primary">3 ساعات</span> على الأقل.
+                </p>
+              </div>
+            </div>
+
+            <!-- Category -->
+            <div class="flex flex-col gap-8">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-4">
+                  <div class="h-10 w-1 bg-primary"></div>
+                  <h3
+                    class="text-2xl font-black uppercase tracking-tight text-charcoal dark:text-white"
+                  >
+                    اللحوم
+                  </h3>
+                </div>
+
+                <div class="flex items-center gap-2">
+                  <button
+                    id="meatNext"
+                    onclick="scrollMeat(1)"
+                    class="flex h-10 w-10 items-center justify-center rounded-full border border-charcoal/10 bg-white transition-all hover:bg-primary hover:text-white disabled:opacity-40 disabled:cursor-not-allowed dark:border-white/10 dark:bg-background-dark"
+                  >
+                    <span class="material-symbols-outlined">chevron_right</span>
+                  </button>
+                  <button
+                    id="meatPrev"
+                    onclick="scrollMeat(-1)"
+                    class="flex h-10 w-10 items-center justify-center rounded-full border border-charcoal/10 bg-white transition-all hover:bg-primary hover:text-white disabled:opacity-40 disabled:cursor-not-allowed dark:border-white/10 dark:bg-background-dark"
+                  >
+                    <span class="material-symbols-outlined">chevron_left</span>
+                  </button>
+                </div>
+              </div>
+
+              <div
+                id="meatSlider"
+                dir="ltr"
+                class="flex gap-6 overflow-x-auto scroll-smooth scrollbar-hide py-4"
+              >
+                <div
+                  class="w-[300px] flex-none snap-start group overflow-hidden rounded-2xl border border-charcoal/5 bg-white transition-all hover:shadow-2xl dark:border-white/10 dark:bg-background-dark"
+                >
+                  <div class="relative aspect-[4/3] overflow-hidden">
+                    <img
+                      alt="Truffle Mushroom Risotto"
+                      class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+                      src="https://ik.imagekit.io/Gadrenkit/KisraMedia/logo.png?updatedAt=1770293392378"
+                    />
+                    <div
+                      class="absolute right-3 top-3 rounded-full bg-white/90 px-3 py-1 text-xs font-bold text-primary backdrop-blur-sm"
+                    >
+                      خيار الشيف
+                    </div>
+                  </div>
+                  <div class="flex flex-col p-6 text-right">
+                    <div class="mb-2 flex items-center justify-between">
+                      <h3
+                        class="text-lg font-bold text-charcoal dark:text-white"
+                      >
+                        لحمة محمرة
+                      </h3>
+                      <span class="text-lg font-black text-primary">120</span>
+                    </div>
+                    <p
+                      class="mb-6 text-sm leading-relaxed text-muted line-clamp-2"
+                    >
+                      1 كيلو
+                    </p>
+                    <button
+                      class="flex w-full items-center justify-center gap-2 rounded-lg bg-charcoal py-3 text-sm font-bold text-white transition-all hover:bg-primary active:scale-95 dark:bg-white/10 dark:hover:bg-primary"
+                    >
+                      <span class="material-symbols-outlined text-lg"
+                        >touch_app</span
+                      >
+                      اطلب الآن
+                    </button>
+                  </div>
+                </div>
+
+                <div
+                  class="w-[300px] flex-none snap-start group overflow-hidden rounded-2xl border border-charcoal/5 bg-white transition-all hover:shadow-2xl dark:border-white/10 dark:bg-background-dark"
+                >
+                  <div class="relative aspect-[4/3] overflow-hidden">
+                    <img
+                      alt="Moroccan Lamb Tagine"
+                      class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+                      src="https://ik.imagekit.io/Gadrenkit/KisraMedia/logo.png?updatedAt=1770293392378"
+                    />
+                  </div>
+                  <div class="flex flex-col p-6 text-right">
+                    <div class="mb-2 flex items-center justify-between">
+                      <h3
+                        class="text-lg font-bold text-charcoal dark:text-white"
+                      >
+                        لحم مشوية علي الفحم
+                      </h3>
+                      <span class="text-lg font-black text-primary">130</span>
+                    </div>
+                    <p
+                      class="mb-6 text-sm leading-relaxed text-muted line-clamp-2"
+                    >
+                      1 كيلو
+                    </p>
+                    <button
+                      class="flex w-full items-center justify-center gap-2 rounded-lg bg-charcoal py-3 text-sm font-bold text-white transition-all hover:bg-primary active:scale-95 dark:bg-white/10 dark:hover:bg-primary"
+                    >
+                      <span class="material-symbols-outlined text-lg"
+                        >touch_app</span
+                      >
+                      اطلب الآن
+                    </button>
+                  </div>
+                </div>
+
+                <div
+                  class="w-[300px] flex-none snap-start group overflow-hidden rounded-2xl border border-charcoal/5 bg-white transition-all hover:shadow-2xl dark:border-white/10 dark:bg-background-dark"
+                >
+                  <div class="relative aspect-[4/3] overflow-hidden">
+                    <img
+                      alt="Pan-Seared Sea Bass"
+                      class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+                      src="https://ik.imagekit.io/Gadrenkit/KisraMedia/logo.png?updatedAt=1770293392378"
+                    />
+                  </div>
+                  <div class="flex flex-col p-6 text-right">
+                    <div class="mb-2 flex items-center justify-between">
+                      <h3
+                        class="text-lg font-bold text-charcoal dark:text-white"
+                      >
+                        دجاج بروست
+                      </h3>
+                      <span class="text-lg font-black text-primary">90</span>
+                    </div>
+                    <p
+                      class="mb-6 text-sm leading-relaxed text-muted line-clamp-2"
+                    >
+                      10 قطع
+                    </p>
+                    <button
+                      class="flex w-full items-center justify-center gap-2 rounded-lg bg-charcoal py-3 text-sm font-bold text-white transition-all hover:bg-primary active:scale-95 dark:bg-white/10 dark:hover:bg-primary"
+                    >
+                      <span class="material-symbols-outlined text-lg"
+                        >touch_app</span
+                      >
+                      اطلب الآن
+                    </button>
+                  </div>
+                </div>
+
+                <div
+                  class="w-[300px] flex-none snap-start group overflow-hidden rounded-2xl border border-charcoal/5 bg-white transition-all hover:shadow-2xl dark:border-white/10 dark:bg-background-dark"
+                >
+                  <div class="relative aspect-[4/3] overflow-hidden">
+                    <img
+                      alt="Pan-Seared Sea Bass"
+                      class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+                      src="https://ik.imagekit.io/Gadrenkit/KisraMedia/logo.png?updatedAt=1770293392378"
+                    />
+                  </div>
+                  <div class="flex flex-col p-6 text-right">
+                    <div class="mb-2 flex items-center justify-between">
+                      <h3
+                        class="text-lg font-bold text-charcoal dark:text-white"
+                      >
+                        دجاج بالفرن
+                      </h3>
+                      <span class="text-lg font-black text-primary">70</span>
+                    </div>
+                    <p
+                      class="mb-6 text-sm leading-relaxed text-muted line-clamp-2"
+                    >
+                      10 قطع
+                    </p>
+                    <button
+                      class="flex w-full items-center justify-center gap-2 rounded-lg bg-charcoal py-3 text-sm font-bold text-white transition-all hover:bg-primary active:scale-95 dark:bg-white/10 dark:hover:bg-primary"
+                    >
+                      <span class="material-symbols-outlined text-lg"
+                        >touch_app</span
+                      >
+                      اطلب الآن
+                    </button>
+                  </div>
+                </div>
+
+                <div
+                  class="w-[300px] flex-none snap-start group overflow-hidden rounded-2xl border border-charcoal/5 bg-white transition-all hover:shadow-2xl dark:border-white/10 dark:bg-background-dark"
+                >
+                  <div class="relative aspect-[4/3] overflow-hidden">
+                    <img
+                      alt="Black Cod with Miso"
+                      class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+                      src="https://ik.imagekit.io/Gadrenkit/KisraMedia/logo.png?updatedAt=1770293392378"
+                    />
+                  </div>
+                  <div class="flex flex-col p-6 text-right">
+                    <div class="mb-2 flex items-center justify-between">
+                      <h3
+                        class="text-lg font-bold text-charcoal dark:text-white"
+                      >
+                        سمك مقلي
+                      </h3>
+                      <span class="text-lg font-black text-primary">110</span>
+                    </div>
+                    <p
+                      class="mb-6 text-sm leading-relaxed text-muted line-clamp-2"
+                    >
+                      1 كيلو
+                    </p>
+                    <button
+                      class="flex w-full items-center justify-center gap-2 rounded-lg bg-charcoal py-3 text-sm font-bold text-white transition-all hover:bg-primary active:scale-95 dark:bg-white/10 dark:hover:bg-primary"
+                    >
+                      <span class="material-symbols-outlined text-lg"
+                        >touch_app</span
+                      >
+                      اطلب الآن
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex flex-col gap-8">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-4">
+                  <div class="h-10 w-1 bg-primary"></div>
+                  <h3
+                    class="text-2xl font-black uppercase tracking-tight text-charcoal dark:text-white"
+                  >
+                    المعجنات
+                  </h3>
+                </div>
+
+                <div class="flex items-center gap-2">
+                  <button
+                    id="meatNext"
+                    onclick="scrollMeat(1)"
+                    class="flex h-10 w-10 items-center justify-center rounded-full border border-charcoal/10 bg-white transition-all hover:bg-primary hover:text-white disabled:opacity-40 disabled:cursor-not-allowed dark:border-white/10 dark:bg-background-dark"
+                  >
+                    <span class="material-symbols-outlined">chevron_right</span>
+                  </button>
+                  <button
+                    id="meatPrev"
+                    onclick="scrollMeat(-1)"
+                    class="flex h-10 w-10 items-center justify-center rounded-full border border-charcoal/10 bg-white transition-all hover:bg-primary hover:text-white disabled:opacity-40 disabled:cursor-not-allowed dark:border-white/10 dark:bg-background-dark"
+                  >
+                    <span class="material-symbols-outlined">chevron_left</span>
+                  </button>
+                </div>
+              </div>
+
+              <div
+                id="meatSlider"
+                dir="ltr"
+                class="flex gap-6 overflow-x-auto scroll-smooth scrollbar-hide py-4"
+              >
+                <div
+                  class="w-[300px] flex-none snap-start group overflow-hidden rounded-2xl border border-charcoal/5 bg-white transition-all hover:shadow-2xl dark:border-white/10 dark:bg-background-dark"
+                >
+                  <div class="relative aspect-[4/3] overflow-hidden">
+                    <img
+                      alt="Truffle Mushroom Risotto"
+                      class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+                      src="https://ik.imagekit.io/Gadrenkit/KisraMedia/logo.png?updatedAt=1770293392378"
+                    />
+                    <div
+                      class="absolute right-3 top-3 rounded-full bg-white/90 px-3 py-1 text-xs font-bold text-primary backdrop-blur-sm"
+                    >
+                      خيار الشيف
+                    </div>
+                  </div>
+                  <div class="flex flex-col p-6 text-right">
+                    <div class="mb-2 flex items-center justify-between">
+                      <h3
+                        class="text-lg font-bold text-charcoal dark:text-white"
+                      >
+                        سمبوكسة لحم/جبن/خضار
+                      </h3>
+                      <span class="text-lg font-black text-primary">100</span>
+                    </div>
+                    <p
+                      class="mb-6 text-sm leading-relaxed text-muted line-clamp-2"
+                    >
+                      20 قطعة
+                    </p>
+                    <button
+                      class="flex w-full items-center justify-center gap-2 rounded-lg bg-charcoal py-3 text-sm font-bold text-white transition-all hover:bg-primary active:scale-95 dark:bg-white/10 dark:hover:bg-primary"
+                    >
+                      <span class="material-symbols-outlined text-lg"
+                        >touch_app</span
+                      >
+                      اطلب الآن
+                    </button>
+                  </div>
+                </div>
+
+                <div
+                  class="w-[300px] flex-none snap-start group overflow-hidden rounded-2xl border border-charcoal/5 bg-white transition-all hover:shadow-2xl dark:border-white/10 dark:bg-background-dark"
+                >
+                  <div class="relative aspect-[4/3] overflow-hidden">
+                    <img
+                      alt="Moroccan Lamb Tagine"
+                      class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+                      src="https://ik.imagekit.io/Gadrenkit/KisraMedia/logo.png?updatedAt=1770293392378"
+                    />
+                  </div>
+                  <div class="flex flex-col p-6 text-right">
+                    <div class="mb-2 flex items-center justify-between">
+                      <h3
+                        class="text-lg font-bold text-charcoal dark:text-white"
+                      >
+                        فطاير مشكلة
+                      </h3>
+                      <span class="text-lg font-black text-primary">100</span>
+                    </div>
+                    <p
+                      class="mb-6 text-sm leading-relaxed text-muted line-clamp-2"
+                    >
+                      20 قطعة
+                    </p>
+                    <button
+                      class="flex w-full items-center justify-center gap-2 rounded-lg bg-charcoal py-3 text-sm font-bold text-white transition-all hover:bg-primary active:scale-95 dark:bg-white/10 dark:hover:bg-primary"
+                    >
+                      <span class="material-symbols-outlined text-lg"
+                        >touch_app</span
+                      >
+                      اطلب الآن
+                    </button>
+                  </div>
+                </div>
+
+                <div
+                  class="w-[300px] flex-none snap-start group overflow-hidden rounded-2xl border border-charcoal/5 bg-white transition-all hover:shadow-2xl dark:border-white/10 dark:bg-background-dark"
+                >
+                  <div class="relative aspect-[4/3] overflow-hidden">
+                    <img
+                      alt="Pan-Seared Sea Bass"
+                      class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+                      src="https://ik.imagekit.io/Gadrenkit/KisraMedia/logo.png?updatedAt=1770293392378"
+                    />
+                  </div>
+                  <div class="flex flex-col p-6 text-right">
+                    <div class="mb-2 flex items-center justify-between">
+                      <h3
+                        class="text-lg font-bold text-charcoal dark:text-white"
+                      >
+                        صينية قلاش
+                      </h3>
+                      <span class="text-lg font-black text-primary">140</span>
+                    </div>
+                    <p
+                      class="mb-6 text-sm leading-relaxed text-muted line-clamp-2"
+                    >
+                      ا صينية
+                    </p>
+                    <button
+                      class="flex w-full items-center justify-center gap-2 rounded-lg bg-charcoal py-3 text-sm font-bold text-white transition-all hover:bg-primary active:scale-95 dark:bg-white/10 dark:hover:bg-primary"
+                    >
+                      <span class="material-symbols-outlined text-lg"
+                        >touch_app</span
+                      >
+                      اطلب الآن
+                    </button>
+                  </div>
+                </div>
+
+                <div
+                  class="w-[300px] flex-none snap-start group overflow-hidden rounded-2xl border border-charcoal/5 bg-white transition-all hover:shadow-2xl dark:border-white/10 dark:bg-background-dark"
+                >
+                  <div class="relative aspect-[4/3] overflow-hidden">
+                    <img
+                      alt="Black Cod with Miso"
+                      class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+                      src="https://ik.imagekit.io/Gadrenkit/KisraMedia/logo.png?updatedAt=1770293392378"
+                    />
+                  </div>
+                  <div class="flex flex-col p-6 text-right">
+                    <div class="mb-2 flex items-center justify-between">
+                      <h3
+                        class="text-lg font-bold text-charcoal dark:text-white"
+                      >
+                        بيتزا
+                      </h3>
+                      <span class="text-lg font-black text-primary">80</span>
+                    </div>
+                    <p
+                      class="mb-6 text-sm leading-relaxed text-muted line-clamp-2"
+                    >
+                      1 صينية
+                    </p>
+                    <button
+                      class="flex w-full items-center justify-center gap-2 rounded-lg bg-charcoal py-3 text-sm font-bold text-white transition-all hover:bg-primary active:scale-95 dark:bg-white/10 dark:hover:bg-primary"
+                    >
+                      <span class="material-symbols-outlined text-lg"
+                        >touch_app</span
+                      >
+                      اطلب الآن
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex flex-col gap-8">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-4">
+                  <div class="h-10 w-1 bg-primary"></div>
+                  <h3
+                    class="text-2xl font-black uppercase tracking-tight text-charcoal dark:text-white"
+                  >
+                    السلطات
+                  </h3>
+                </div>
+
+                <div class="flex items-center gap-2">
+                  <button
+                    id="meatNext"
+                    onclick="scrollMeat(1)"
+                    class="flex h-10 w-10 items-center justify-center rounded-full border border-charcoal/10 bg-white transition-all hover:bg-primary hover:text-white disabled:opacity-40 disabled:cursor-not-allowed dark:border-white/10 dark:bg-background-dark"
+                  >
+                    <span class="material-symbols-outlined">chevron_right</span>
+                  </button>
+                  <button
+                    id="meatPrev"
+                    onclick="scrollMeat(-1)"
+                    class="flex h-10 w-10 items-center justify-center rounded-full border border-charcoal/10 bg-white transition-all hover:bg-primary hover:text-white disabled:opacity-40 disabled:cursor-not-allowed dark:border-white/10 dark:bg-background-dark"
+                  >
+                    <span class="material-symbols-outlined">chevron_left</span>
+                  </button>
+                </div>
+              </div>
+
+              <div
+                id="meatSlider"
+                dir="ltr"
+                class="flex gap-6 overflow-x-auto scroll-smooth scrollbar-hide py-4"
+              >
+                <div
+                  class="w-[300px] flex-none snap-start group overflow-hidden rounded-2xl border border-charcoal/5 bg-white transition-all hover:shadow-2xl dark:border-white/10 dark:bg-background-dark"
+                >
+                  <div class="relative aspect-[4/3] overflow-hidden">
+                    <img
+                      alt="Truffle Mushroom Risotto"
+                      class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+                      src="https://ik.imagekit.io/Gadrenkit/KisraMedia/logo.png?updatedAt=1770293392378"
+                    />
+                    <div
+                      class="absolute right-3 top-3 rounded-full bg-white/90 px-3 py-1 text-xs font-bold text-primary backdrop-blur-sm"
+                    >
+                      خيار الشيف
+                    </div>
+                  </div>
+                  <div class="flex flex-col p-6 text-right">
+                    <div class="mb-2 flex items-center justify-between">
+                      <h3
+                        class="text-lg font-bold text-charcoal dark:text-white"
+                      >
+                        سلطة اسود
+                      </h3>
+                      <span class="text-lg font-black text-primary">60</span>
+                    </div>
+                    <p
+                      class="mb-6 text-sm leading-relaxed text-muted line-clamp-2"
+                    >
+                      ا علبة
+                    </p>
+                    <button
+                      class="flex w-full items-center justify-center gap-2 rounded-lg bg-charcoal py-3 text-sm font-bold text-white transition-all hover:bg-primary active:scale-95 dark:bg-white/10 dark:hover:bg-primary"
+                    >
+                      <span class="material-symbols-outlined text-lg"
+                        >touch_app</span
+                      >
+                      اطلب الآن
+                    </button>
+                  </div>
+                </div>
+
+                <div
+                  class="w-[300px] flex-none snap-start group overflow-hidden rounded-2xl border border-charcoal/5 bg-white transition-all hover:shadow-2xl dark:border-white/10 dark:bg-background-dark"
+                >
+                  <div class="relative aspect-[4/3] overflow-hidden">
+                    <img
+                      alt="Moroccan Lamb Tagine"
+                      class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+                      src="https://ik.imagekit.io/Gadrenkit/KisraMedia/logo.png?updatedAt=1770293392378"
+                    />
+                  </div>
+                  <div class="flex flex-col p-6 text-right">
+                    <div class="mb-2 flex items-center justify-between">
+                      <h3
+                        class="text-lg font-bold text-charcoal dark:text-white"
+                      >
+                        سلطة حمص
+                      </h3>
+                      <span class="text-lg font-black text-primary">70</span>
+                    </div>
+                    <p
+                      class="mb-6 text-sm leading-relaxed text-muted line-clamp-2"
+                    >
+                      1 علبة
+                    </p>
+                    <button
+                      class="flex w-full items-center justify-center gap-2 rounded-lg bg-charcoal py-3 text-sm font-bold text-white transition-all hover:bg-primary active:scale-95 dark:bg-white/10 dark:hover:bg-primary"
+                    >
+                      <span class="material-symbols-outlined text-lg"
+                        >touch_app</span
+                      >
+                      اطلب الآن
+                    </button>
+                  </div>
+                </div>
+
+                <div
+                  class="w-[300px] flex-none snap-start group overflow-hidden rounded-2xl border border-charcoal/5 bg-white transition-all hover:shadow-2xl dark:border-white/10 dark:bg-background-dark"
+                >
+                  <div class="relative aspect-[4/3] overflow-hidden">
+                    <img
+                      alt="Pan-Seared Sea Bass"
+                      class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+                      src="https://ik.imagekit.io/Gadrenkit/KisraMedia/logo.png?updatedAt=1770293392378"
+                    />
+                  </div>
+                  <div class="flex flex-col p-6 text-right">
+                    <div class="mb-2 flex items-center justify-between">
+                      <h3
+                        class="text-lg font-bold text-charcoal dark:text-white"
+                      >
+                        سلطة هندية
+                      </h3>
+                      <span class="text-lg font-black text-primary">50</span>
+                    </div>
+                    <p
+                      class="mb-6 text-sm leading-relaxed text-muted line-clamp-2"
+                    >
+                      ا علبة
+                    </p>
+                    <button
+                      class="flex w-full items-center justify-center gap-2 rounded-lg bg-charcoal py-3 text-sm font-bold text-white transition-all hover:bg-primary active:scale-95 dark:bg-white/10 dark:hover:bg-primary"
+                    >
+                      <span class="material-symbols-outlined text-lg"
+                        >touch_app</span
+                      >
+                      اطلب الآن
+                    </button>
+                  </div>
+                </div>
+
+                <div
+                  class="w-[300px] flex-none snap-start group overflow-hidden rounded-2xl border border-charcoal/5 bg-white transition-all hover:shadow-2xl dark:border-white/10 dark:bg-background-dark"
+                >
+                  <div class="relative aspect-[4/3] overflow-hidden">
+                    <img
+                      alt="Pan-Seared Sea Bass"
+                      class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+                      src="https://ik.imagekit.io/Gadrenkit/KisraMedia/logo.png?updatedAt=1770293392378"
+                    />
+                  </div>
+                  <div class="flex flex-col p-6 text-right">
+                    <div class="mb-2 flex items-center justify-between">
+                      <h3
+                        class="text-lg font-bold text-charcoal dark:text-white"
+                      >
+                        سلطة بطاطس
+                      </h3>
+                      <span class="text-lg font-black text-primary">50</span>
+                    </div>
+                    <p
+                      class="mb-6 text-sm leading-relaxed text-muted line-clamp-2"
+                    >
+                      ا علبة
+                    </p>
+                    <button
+                      class="flex w-full items-center justify-center gap-2 rounded-lg bg-charcoal py-3 text-sm font-bold text-white transition-all hover:bg-primary active:scale-95 dark:bg-white/10 dark:hover:bg-primary"
+                    >
+                      <span class="material-symbols-outlined text-lg"
+                        >touch_app</span
+                      >
+                      اطلب الآن
+                    </button>
+                  </div>
+                </div>
+
+                <div
+                  class="w-[300px] flex-none snap-start group overflow-hidden rounded-2xl border border-charcoal/5 bg-white transition-all hover:shadow-2xl dark:border-white/10 dark:bg-background-dark"
+                >
+                  <div class="relative aspect-[4/3] overflow-hidden">
+                    <img
+                      alt="Pan-Seared Sea Bass"
+                      class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+                      src="https://ik.imagekit.io/Gadrenkit/KisraMedia/logo.png?updatedAt=1770293392378"
+                    />
+                  </div>
+                  <div class="flex flex-col p-6 text-right">
+                    <div class="mb-2 flex items-center justify-between">
+                      <h3
+                        class="text-lg font-bold text-charcoal dark:text-white"
+                      >
+                        دجاج بالفرن
+                      </h3>
+                      <span class="text-lg font-black text-primary">70</span>
+                    </div>
+                    <p
+                      class="mb-6 text-sm leading-relaxed text-muted line-clamp-2"
+                    >
+                      10 قطع
+                    </p>
+                    <button
+                      class="flex w-full items-center justify-center gap-2 rounded-lg bg-charcoal py-3 text-sm font-bold text-white transition-all hover:bg-primary active:scale-95 dark:bg-white/10 dark:hover:bg-primary"
+                    >
+                      <span class="material-symbols-outlined text-lg"
+                        >touch_app</span
+                      >
+                      اطلب الآن
+                    </button>
+                  </div>
+                </div>
+
+                <div
+                  class="w-[300px] flex-none snap-start group overflow-hidden rounded-2xl border border-charcoal/5 bg-white transition-all hover:shadow-2xl dark:border-white/10 dark:bg-background-dark"
+                >
+                  <div class="relative aspect-[4/3] overflow-hidden">
+                    <img
+                      alt="Black Cod with Miso"
+                      class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+                      src="https://ik.imagekit.io/Gadrenkit/KisraMedia/logo.png?updatedAt=1770293392378"
+                    />
+                  </div>
+                  <div class="flex flex-col p-6 text-right">
+                    <div class="mb-2 flex items-center justify-between">
+                      <h3
+                        class="text-lg font-bold text-charcoal dark:text-white"
+                      >
+                        سلطة مايونيز
+                      </h3>
+                      <span class="text-lg font-black text-primary">70</span>
+                    </div>
+                    <p
+                      class="mb-6 text-sm leading-relaxed text-muted line-clamp-2"
+                    >
+                      1 علبة
+                    </p>
+                    <button
+                      class="flex w-full items-center justify-center gap-2 rounded-lg bg-charcoal py-3 text-sm font-bold text-white transition-all hover:bg-primary active:scale-95 dark:bg-white/10 dark:hover:bg-primary"
+                    >
+                      <span class="material-symbols-outlined text-lg"
+                        >touch_app</span
+                      >
+                      اطلب الآن
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex flex-col gap-8">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-4">
+                  <div class="h-10 w-1 bg-primary"></div>
+                  <h3
+                    class="text-2xl font-black uppercase tracking-tight text-charcoal dark:text-white"
+                  >
+                    الاساسية
+                  </h3>
+                </div>
+
+                <div class="flex items-center gap-2">
+                  <button
+                    id="meatNext"
+                    onclick="scrollMeat(1)"
+                    class="flex h-10 w-10 items-center justify-center rounded-full border border-charcoal/10 bg-white transition-all hover:bg-primary hover:text-white disabled:opacity-40 disabled:cursor-not-allowed dark:border-white/10 dark:bg-background-dark"
+                  >
+                    <span class="material-symbols-outlined">chevron_right</span>
+                  </button>
+                  <button
+                    id="meatPrev"
+                    onclick="scrollMeat(-1)"
+                    class="flex h-10 w-10 items-center justify-center rounded-full border border-charcoal/10 bg-white transition-all hover:bg-primary hover:text-white disabled:opacity-40 disabled:cursor-not-allowed dark:border-white/10 dark:bg-background-dark"
+                  >
+                    <span class="material-symbols-outlined">chevron_left</span>
+                  </button>
+                </div>
+              </div>
+
+              <div
+                id="meatSlider"
+                dir="ltr"
+                class="flex gap-6 overflow-x-auto scroll-smooth scrollbar-hide py-4"
+              >
+                <div
+                  class="w-[300px] flex-none snap-start group overflow-hidden rounded-2xl border border-charcoal/5 bg-white transition-all hover:shadow-2xl dark:border-white/10 dark:bg-background-dark"
+                >
+                  <div class="relative aspect-[4/3] overflow-hidden">
+                    <img
+                      alt="Truffle Mushroom Risotto"
+                      class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+                      src="https://ik.imagekit.io/Gadrenkit/KisraMedia/logo.png?updatedAt=1770293392378"
+                    />
+                    <div
+                      class="absolute right-3 top-3 rounded-full bg-white/90 px-3 py-1 text-xs font-bold text-primary backdrop-blur-sm"
+                    >
+                      خيار الشيف
+                    </div>
+                  </div>
+                  <div class="flex flex-col p-6 text-right">
+                    <div class="mb-2 flex items-center justify-between">
+                      <h3
+                        class="text-lg font-bold text-charcoal dark:text-white"
+                      >
+                        محشي
+                      </h3>
+                      <span class="text-lg font-black text-primary">130</span>
+                    </div>
+                    <p
+                      class="mb-6 text-sm leading-relaxed text-muted line-clamp-2"
+                    >
+                      1 علبة
+                    </p>
+                    <button
+                      class="flex w-full items-center justify-center gap-2 rounded-lg bg-charcoal py-3 text-sm font-bold text-white transition-all hover:bg-primary active:scale-95 dark:bg-white/10 dark:hover:bg-primary"
+                    >
+                      <span class="material-symbols-outlined text-lg"
+                        >touch_app</span
+                      >
+                      اطلب الآن
+                    </button>
+                  </div>
+                </div>
+
+                <div
+                  class="w-[300px] flex-none snap-start group overflow-hidden rounded-2xl border border-charcoal/5 bg-white transition-all hover:shadow-2xl dark:border-white/10 dark:bg-background-dark"
+                >
+                  <div class="relative aspect-[4/3] overflow-hidden">
+                    <img
+                      alt="Moroccan Lamb Tagine"
+                      class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+                      src="https://ik.imagekit.io/Gadrenkit/KisraMedia/logo.png?updatedAt=1770293392378"
+                    />
+                  </div>
+                  <div class="flex flex-col p-6 text-right">
+                    <div class="mb-2 flex items-center justify-between">
+                      <h3
+                        class="text-lg font-bold text-charcoal dark:text-white"
+                      >
+                        مكرونة بشاميل
+                      </h3>
+                      <span class="text-lg font-black text-primary">130</span>
+                    </div>
+                    <p
+                      class="mb-6 text-sm leading-relaxed text-muted line-clamp-2"
+                    >
+                      1 صينية
+                    </p>
+                    <button
+                      class="flex w-full items-center justify-center gap-2 rounded-lg bg-charcoal py-3 text-sm font-bold text-white transition-all hover:bg-primary active:scale-95 dark:bg-white/10 dark:hover:bg-primary"
+                    >
+                      <span class="material-symbols-outlined text-lg"
+                        >touch_app</span
+                      >
+                      اطلب الآن
+                    </button>
+                  </div>
+                </div>
+
+                <div
+                  class="w-[300px] flex-none snap-start group overflow-hidden rounded-2xl border border-charcoal/5 bg-white transition-all hover:shadow-2xl dark:border-white/10 dark:bg-background-dark"
+                >
+                  <div class="relative aspect-[4/3] overflow-hidden">
+                    <img
+                      alt="Pan-Seared Sea Bass"
+                      class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+                      src="https://ik.imagekit.io/Gadrenkit/KisraMedia/logo.png?updatedAt=1770293392378"
+                    />
+                  </div>
+                  <div class="flex flex-col p-6 text-right">
+                    <div class="mb-2 flex items-center justify-between">
+                      <h3
+                        class="text-lg font-bold text-charcoal dark:text-white"
+                      >
+                        كفتة بالصلصة
+                      </h3>
+                      <span class="text-lg font-black text-primary">60</span>
+                    </div>
+                    <p
+                      class="mb-6 text-sm leading-relaxed text-muted line-clamp-2"
+                    >
+                      1 علبة
+                    </p>
+                    <button
+                      class="flex w-full items-center justify-center gap-2 rounded-lg bg-charcoal py-3 text-sm font-bold text-white transition-all hover:bg-primary active:scale-95 dark:bg-white/10 dark:hover:bg-primary"
+                    >
+                      <span class="material-symbols-outlined text-lg"
+                        >touch_app</span
+                      >
+                      اطلب الآن
+                    </button>
+                  </div>
+                </div>
+
+                <div
+                  class="w-[300px] flex-none snap-start group overflow-hidden rounded-2xl border border-charcoal/5 bg-white transition-all hover:shadow-2xl dark:border-white/10 dark:bg-background-dark"
+                >
+                  <div class="relative aspect-[4/3] overflow-hidden">
+                    <img
+                      alt="Black Cod with Miso"
+                      class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+                      src="https://ik.imagekit.io/Gadrenkit/KisraMedia/logo.png?updatedAt=1770293392378"
+                    />
+                  </div>
+                  <div class="flex flex-col p-6 text-right">
+                    <div class="mb-2 flex items-center justify-between">
+                      <h3
+                        class="text-lg font-bold text-charcoal dark:text-white"
+                      >
+                        طبيخ بامية
+                      </h3>
+                      <span class="text-lg font-black text-primary">50</span>
+                    </div>
+                    <p
+                      class="mb-6 text-sm leading-relaxed text-muted line-clamp-2"
+                    >
+                      1 علبة
+                    </p>
+                    <button
+                      class="flex w-full items-center justify-center gap-2 rounded-lg bg-charcoal py-3 text-sm font-bold text-white transition-all hover:bg-primary active:scale-95 dark:bg-white/10 dark:hover:bg-primary"
+                    >
+                      <span class="material-symbols-outlined text-lg"
+                        >touch_app</span
+                      >
+                      اطلب الآن
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex flex-col gap-8">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-4">
+                  <div class="h-10 w-1 bg-primary"></div>
+                  <h3
+                    class="text-2xl font-black uppercase tracking-tight text-charcoal dark:text-white"
+                  >
+                    الملاحات
+                  </h3>
+                </div>
+
+                <div class="flex items-center gap-2">
+                  <button
+                    id="meatNext"
+                    onclick="scrollMeat(1)"
+                    class="flex h-10 w-10 items-center justify-center rounded-full border border-charcoal/10 bg-white transition-all hover:bg-primary hover:text-white disabled:opacity-40 disabled:cursor-not-allowed dark:border-white/10 dark:bg-background-dark"
+                  >
+                    <span class="material-symbols-outlined">chevron_right</span>
+                  </button>
+                  <button
+                    id="meatPrev"
+                    onclick="scrollMeat(-1)"
+                    class="flex h-10 w-10 items-center justify-center rounded-full border border-charcoal/10 bg-white transition-all hover:bg-primary hover:text-white disabled:opacity-40 disabled:cursor-not-allowed dark:border-white/10 dark:bg-background-dark"
+                  >
+                    <span class="material-symbols-outlined">chevron_left</span>
+                  </button>
+                </div>
+              </div>
+
+              <div
+                id="meatSlider"
+                dir="ltr"
+                class="flex gap-6 overflow-x-auto scroll-smooth scrollbar-hide py-4"
+              >
+                <div
+                  class="w-[300px] flex-none snap-start group overflow-hidden rounded-2xl border border-charcoal/5 bg-white transition-all hover:shadow-2xl dark:border-white/10 dark:bg-background-dark"
+                >
+                  <div class="relative aspect-[4/3] overflow-hidden">
+                    <img
+                      alt="Truffle Mushroom Risotto"
+                      class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+                      src="https://ik.imagekit.io/Gadrenkit/KisraMedia/logo.png?updatedAt=1770293392378"
+                    />
+                    <div
+                      class="absolute right-3 top-3 rounded-full bg-white/90 px-3 py-1 text-xs font-bold text-primary backdrop-blur-sm"
+                    >
+                      خيار الشيف
+                    </div>
+                  </div>
+                  <div class="flex flex-col p-6 text-right">
+                    <div class="mb-2 flex items-center justify-between">
+                      <h3
+                        class="text-lg font-bold text-charcoal dark:text-white"
+                      >
+                        ملاح خضرة
+                      </h3>
+                      <span class="text-lg font-black text-primary">60</span>
+                    </div>
+                    <p
+                      class="mb-6 text-sm leading-relaxed text-muted line-clamp-2"
+                    >
+                      1 علبة
+                    </p>
+                    <button
+                      class="flex w-full items-center justify-center gap-2 rounded-lg bg-charcoal py-3 text-sm font-bold text-white transition-all hover:bg-primary active:scale-95 dark:bg-white/10 dark:hover:bg-primary"
+                    >
+                      <span class="material-symbols-outlined text-lg"
+                        >touch_app</span
+                      >
+                      اطلب الآن
+                    </button>
+                  </div>
+                </div>
+
+                <div
+                  class="w-[300px] flex-none snap-start group overflow-hidden rounded-2xl border border-charcoal/5 bg-white transition-all hover:shadow-2xl dark:border-white/10 dark:bg-background-dark"
+                >
+                  <div class="relative aspect-[4/3] overflow-hidden">
+                    <img
+                      alt="Moroccan Lamb Tagine"
+                      class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+                      src="https://ik.imagekit.io/Gadrenkit/KisraMedia/logo.png?updatedAt=1770293392378"
+                    />
+                  </div>
+                  <div class="flex flex-col p-6 text-right">
+                    <div class="mb-2 flex items-center justify-between">
+                      <h3
+                        class="text-lg font-bold text-charcoal dark:text-white"
+                      >
+                        ملاح نعيمية
+                      </h3>
+                      <span class="text-lg font-black text-primary">70</span>
+                    </div>
+                    <p
+                      class="mb-6 text-sm leading-relaxed text-muted line-clamp-2"
+                    >
+                      1 علبة
+                    </p>
+                    <button
+                      class="flex w-full items-center justify-center gap-2 rounded-lg bg-charcoal py-3 text-sm font-bold text-white transition-all hover:bg-primary active:scale-95 dark:bg-white/10 dark:hover:bg-primary"
+                    >
+                      <span class="material-symbols-outlined text-lg"
+                        >touch_app</span
+                      >
+                      اطلب الآن
+                    </button>
+                  </div>
+                </div>
+
+                <div
+                  class="w-[300px] flex-none snap-start group overflow-hidden rounded-2xl border border-charcoal/5 bg-white transition-all hover:shadow-2xl dark:border-white/10 dark:bg-background-dark"
+                >
+                  <div class="relative aspect-[4/3] overflow-hidden">
+                    <img
+                      alt="Pan-Seared Sea Bass"
+                      class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+                      src="https://ik.imagekit.io/Gadrenkit/KisraMedia/logo.png?updatedAt=1770293392378"
+                    />
+                  </div>
+                  <div class="flex flex-col p-6 text-right">
+                    <div class="mb-2 flex items-center justify-between">
+                      <h3
+                        class="text-lg font-bold text-charcoal dark:text-white"
+                      >
+                        ملاح روب
+                      </h3>
+                      <span class="text-lg font-black text-primary">60</span>
+                    </div>
+                    <p
+                      class="mb-6 text-sm leading-relaxed text-muted line-clamp-2"
+                    >
+                      1 علبة
+                    </p>
+                    <button
+                      class="flex w-full items-center justify-center gap-2 rounded-lg bg-charcoal py-3 text-sm font-bold text-white transition-all hover:bg-primary active:scale-95 dark:bg-white/10 dark:hover:bg-primary"
+                    >
+                      <span class="material-symbols-outlined text-lg"
+                        >touch_app</span
+                      >
+                      اطلب الآن
+                    </button>
+                  </div>
+                </div>
+
+                <div
+                  class="w-[300px] flex-none snap-start group overflow-hidden rounded-2xl border border-charcoal/5 bg-white transition-all hover:shadow-2xl dark:border-white/10 dark:bg-background-dark"
+                >
+                  <div class="relative aspect-[4/3] overflow-hidden">
+                    <img
+                      alt="Black Cod with Miso"
+                      class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+                      src="https://ik.imagekit.io/Gadrenkit/KisraMedia/logo.png?updatedAt=1770293392378"
+                    />
+                  </div>
+                  <div class="flex flex-col p-6 text-right">
+                    <div class="mb-2 flex items-center justify-between">
+                      <h3
+                        class="text-lg font-bold text-charcoal dark:text-white"
+                      >
+                        ملاح ام رقيقة
+                      </h3>
+                      <span class="text-lg font-black text-primary">50</span>
+                    </div>
+                    <p
+                      class="mb-6 text-sm leading-relaxed text-muted line-clamp-2"
+                    >
+                      1 علبة
+                    </p>
+                    <button
+                      class="flex w-full items-center justify-center gap-2 rounded-lg bg-charcoal py-3 text-sm font-bold text-white transition-all hover:bg-primary active:scale-95 dark:bg-white/10 dark:hover:bg-primary"
+                    >
+                      <span class="material-symbols-outlined text-lg"
+                        >touch_app</span
+                      >
+                      اطلب الآن
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex flex-col gap-8">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-4">
+                  <div class="h-10 w-1 bg-primary"></div>
+                  <h3
+                    class="text-2xl font-black uppercase tracking-tight text-charcoal dark:text-white"
+                  >
+                    الجانبية
+                  </h3>
+                </div>
+
+                <div class="flex items-center gap-2">
+                  <button
+                    id="meatNext"
+                    onclick="scrollMeat(1)"
+                    class="flex h-10 w-10 items-center justify-center rounded-full border border-charcoal/10 bg-white transition-all hover:bg-primary hover:text-white disabled:opacity-40 disabled:cursor-not-allowed dark:border-white/10 dark:bg-background-dark"
+                  >
+                    <span class="material-symbols-outlined">chevron_right</span>
+                  </button>
+                  <button
+                    id="meatPrev"
+                    onclick="scrollMeat(-1)"
+                    class="flex h-10 w-10 items-center justify-center rounded-full border border-charcoal/10 bg-white transition-all hover:bg-primary hover:text-white disabled:opacity-40 disabled:cursor-not-allowed dark:border-white/10 dark:bg-background-dark"
+                  >
+                    <span class="material-symbols-outlined">chevron_left</span>
+                  </button>
+                </div>
+              </div>
+
+              <div
+                id="meatSlider"
+                dir="ltr"
+                class="flex gap-6 overflow-x-auto scroll-smooth scrollbar-hide py-4"
+              >
+                <div
+                  class="w-[300px] flex-none snap-start group overflow-hidden rounded-2xl border border-charcoal/5 bg-white transition-all hover:shadow-2xl dark:border-white/10 dark:bg-background-dark"
+                >
+                  <div class="relative aspect-[4/3] overflow-hidden">
+                    <img
+                      alt="Truffle Mushroom Risotto"
+                      class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+                      src="https://ik.imagekit.io/Gadrenkit/KisraMedia/logo.png?updatedAt=1770293392378"
+                    />
+                    <div
+                      class="absolute right-3 top-3 rounded-full bg-white/90 px-3 py-1 text-xs font-bold text-primary backdrop-blur-sm"
+                    >
+                      خيار الشيف
+                    </div>
+                  </div>
+                  <div class="flex flex-col p-6 text-right">
+                    <div class="mb-2 flex items-center justify-between">
+                      <h3
+                        class="text-lg font-bold text-charcoal dark:text-white"
+                      >
+                        كسرة
+                      </h3>
+                      <span class="text-lg font-black text-primary">30</span>
+                    </div>
+                    <p
+                      class="mb-6 text-sm leading-relaxed text-muted line-clamp-2"
+                    >
+                      20 طرقة
+                    </p>
+                    <button
+                      class="flex w-full items-center justify-center gap-2 rounded-lg bg-charcoal py-3 text-sm font-bold text-white transition-all hover:bg-primary active:scale-95 dark:bg-white/10 dark:hover:bg-primary"
+                    >
+                      <span class="material-symbols-outlined text-lg"
+                        >touch_app</span
+                      >
+                      اطلب الآن
+                    </button>
+                  </div>
+                </div>
+
+                <div
+                  class="w-[300px] flex-none snap-start group overflow-hidden rounded-2xl border border-charcoal/5 bg-white transition-all hover:shadow-2xl dark:border-white/10 dark:bg-background-dark"
+                >
+                  <div class="relative aspect-[4/3] overflow-hidden">
+                    <img
+                      alt="Moroccan Lamb Tagine"
+                      class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+                      src="https://ik.imagekit.io/Gadrenkit/KisraMedia/logo.png?updatedAt=1770293392378"
+                    />
+                  </div>
+                  <div class="flex flex-col p-6 text-right">
+                    <div class="mb-2 flex items-center justify-between">
+                      <h3
+                        class="text-lg font-bold text-charcoal dark:text-white"
+                      >
+                        قراصة
+                      </h3>
+                      <span class="text-lg font-black text-primary">30</span>
+                    </div>
+                    <p
+                      class="mb-6 text-sm leading-relaxed text-muted line-clamp-2"
+                    >
+                      6 طرقة
+                    </p>
+                    <button
+                      class="flex w-full items-center justify-center gap-2 rounded-lg bg-charcoal py-3 text-sm font-bold text-white transition-all hover:bg-primary active:scale-95 dark:bg-white/10 dark:hover:bg-primary"
+                    >
+                      <span class="material-symbols-outlined text-lg"
+                        >touch_app</span
+                      >
+                      اطلب الآن
+                    </button>
+                  </div>
+                </div>
+
+                <div
+                  class="w-[300px] flex-none snap-start group overflow-hidden rounded-2xl border border-charcoal/5 bg-white transition-all hover:shadow-2xl dark:border-white/10 dark:bg-background-dark"
+                >
+                  <div class="relative aspect-[4/3] overflow-hidden">
+                    <img
+                      alt="Pan-Seared Sea Bass"
+                      class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+                      src="https://ik.imagekit.io/Gadrenkit/KisraMedia/logo.png?updatedAt=1770293392378"
+                    />
+                  </div>
+                  <div class="flex flex-col p-6 text-right">
+                    <div class="mb-2 flex items-center justify-between">
+                      <h3
+                        class="text-lg font-bold text-charcoal dark:text-white"
+                      >
+                        عصيدة
+                      </h3>
+                      <span class="text-lg font-black text-primary">10</span>
+                    </div>
+                    <p
+                      class="mb-6 text-sm leading-relaxed text-muted line-clamp-2"
+                    >
+                      1 قالب
+                    </p>
+                    <button
+                      class="flex w-full items-center justify-center gap-2 rounded-lg bg-charcoal py-3 text-sm font-bold text-white transition-all hover:bg-primary active:scale-95 dark:bg-white/10 dark:hover:bg-primary"
+                    >
+                      <span class="material-symbols-outlined text-lg"
+                        >touch_app</span
+                      >
+                      اطلب الآن
+                    </button>
+                  </div>
+                </div>
+
+                <div
+                  class="w-[300px] flex-none snap-start group overflow-hidden rounded-2xl border border-charcoal/5 bg-white transition-all hover:shadow-2xl dark:border-white/10 dark:bg-background-dark"
+                >
+                  <div class="relative aspect-[4/3] overflow-hidden">
+                    <img
+                      alt="Black Cod with Miso"
+                      class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+                      src="https://ik.imagekit.io/Gadrenkit/KisraMedia/logo.png?updatedAt=1770293392378"
+                    />
+                  </div>
+                  <div class="flex flex-col p-6 text-right">
+                    <div class="mb-2 flex items-center justify-between">
+                      <h3
+                        class="text-lg font-bold text-charcoal dark:text-white"
+                      >
+                        عصيدة
+                      </h3>
+                      <span class="text-lg font-black text-primary">10</span>
+                    </div>
+                    <p
+                      class="mb-6 text-sm leading-relaxed text-muted line-clamp-2"
+                    >
+                      1 قالب
+                    </p>
+                    <button
+                      class="flex w-full items-center justify-center gap-2 rounded-lg bg-charcoal py-3 text-sm font-bold text-white transition-all hover:bg-primary active:scale-95 dark:bg-white/10 dark:hover:bg-primary"
+                    >
+                      <span class="material-symbols-outlined text-lg"
+                        >touch_app</span
+                      >
+                      اطلب الآن
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex flex-col gap-8">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-4">
+                  <div class="h-10 w-1 bg-primary"></div>
+                  <h3
+                    class="text-2xl font-black uppercase tracking-tight text-charcoal dark:text-white"
+                  >
+                    الحلويات
+                  </h3>
+                </div>
+
+                <div class="flex items-center gap-2">
+                  <button
+                    id="meatNext"
+                    onclick="scrollMeat(1)"
+                    class="flex h-10 w-10 items-center justify-center rounded-full border border-charcoal/10 bg-white transition-all hover:bg-primary hover:text-white disabled:opacity-40 disabled:cursor-not-allowed dark:border-white/10 dark:bg-background-dark"
+                  >
+                    <span class="material-symbols-outlined">chevron_right</span>
+                  </button>
+                  <button
+                    id="meatPrev"
+                    onclick="scrollMeat(-1)"
+                    class="flex h-10 w-10 items-center justify-center rounded-full border border-charcoal/10 bg-white transition-all hover:bg-primary hover:text-white disabled:opacity-40 disabled:cursor-not-allowed dark:border-white/10 dark:bg-background-dark"
+                  >
+                    <span class="material-symbols-outlined">chevron_left</span>
+                  </button>
+                </div>
+              </div>
+
+              <div
+                id="meatSlider"
+                dir="ltr"
+                class="flex gap-6 overflow-x-auto scroll-smooth scrollbar-hide py-4"
+              >
+                <div
+                  class="w-[300px] flex-none snap-start group overflow-hidden rounded-2xl border border-charcoal/5 bg-white transition-all hover:shadow-2xl dark:border-white/10 dark:bg-background-dark"
+                >
+                  <div class="relative aspect-[4/3] overflow-hidden">
+                    <img
+                      alt="Truffle Mushroom Risotto"
+                      class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+                      src="https://ik.imagekit.io/Gadrenkit/KisraMedia/logo.png?updatedAt=1770293392378"
+                    />
+                    <div
+                      class="absolute right-3 top-3 rounded-full bg-white/90 px-3 py-1 text-xs font-bold text-primary backdrop-blur-sm"
+                    >
+                      خيار الشيف
+                    </div>
+                  </div>
+                  <div class="flex flex-col p-6 text-right">
+                    <div class="mb-2 flex items-center justify-between">
+                      <h3
+                        class="text-lg font-bold text-charcoal dark:text-white"
+                      >
+                        كيك شكولاتة
+                      </h3>
+                      <span class="text-lg font-black text-primary">130</span>
+                    </div>
+                    <p
+                      class="mb-6 text-sm leading-relaxed text-muted line-clamp-2"
+                    >
+                      1 قالب
+                    </p>
+                    <button
+                      class="flex w-full items-center justify-center gap-2 rounded-lg bg-charcoal py-3 text-sm font-bold text-white transition-all hover:bg-primary active:scale-95 dark:bg-white/10 dark:hover:bg-primary"
+                    >
+                      <span class="material-symbols-outlined text-lg"
+                        >touch_app</span
+                      >
+                      اطلب الآن
+                    </button>
+                  </div>
+                </div>
+
+                <div
+                  class="w-[300px] flex-none snap-start group overflow-hidden rounded-2xl border border-charcoal/5 bg-white transition-all hover:shadow-2xl dark:border-white/10 dark:bg-background-dark"
+                >
+                  <div class="relative aspect-[4/3] overflow-hidden">
+                    <img
+                      alt="Moroccan Lamb Tagine"
+                      class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+                      src="https://ik.imagekit.io/Gadrenkit/KisraMedia/logo.png?updatedAt=1770293392378"
+                    />
+                  </div>
+                  <div class="flex flex-col p-6 text-right">
+                    <div class="mb-2 flex items-center justify-between">
+                      <h3
+                        class="text-lg font-bold text-charcoal dark:text-white"
+                      >
+                        بسبوسة
+                      </h3>
+                      <span class="text-lg font-black text-primary">130</span>
+                    </div>
+                    <p
+                      class="mb-6 text-sm leading-relaxed text-muted line-clamp-2"
+                    >
+                      1 قالب
+                    </p>
+                    <button
+                      class="flex w-full items-center justify-center gap-2 rounded-lg bg-charcoal py-3 text-sm font-bold text-white transition-all hover:bg-primary active:scale-95 dark:bg-white/10 dark:hover:bg-primary"
+                    >
+                      <span class="material-symbols-outlined text-lg"
+                        >touch_app</span
+                      >
+                      اطلب الآن
+                    </button>
+                  </div>
+                </div>
+
+                <div
+                  class="w-[300px] flex-none snap-start group overflow-hidden rounded-2xl border border-charcoal/5 bg-white transition-all hover:shadow-2xl dark:border-white/10 dark:bg-background-dark"
+                >
+                  <div class="relative aspect-[4/3] overflow-hidden">
+                    <img
+                      alt="Pan-Seared Sea Bass"
+                      class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+                      src="https://ik.imagekit.io/Gadrenkit/KisraMedia/logo.png?updatedAt=1770293392378"
+                    />
+                  </div>
+                  <div class="flex flex-col p-6 text-right">
+                    <div class="mb-2 flex items-center justify-between">
+                      <h3
+                        class="text-lg font-bold text-charcoal dark:text-white"
+                      >
+                        حلو ترايفل
+                      </h3>
+                      <span class="text-lg font-black text-primary">130</span>
+                    </div>
+                    <p
+                      class="mb-6 text-sm leading-relaxed text-muted line-clamp-2"
+                    >
+                      1 قالب
+                    </p>
+                    <button
+                      class="flex w-full items-center justify-center gap-2 rounded-lg bg-charcoal py-3 text-sm font-bold text-white transition-all hover:bg-primary active:scale-95 dark:bg-white/10 dark:hover:bg-primary"
+                    >
+                      <span class="material-symbols-outlined text-lg"
+                        >touch_app</span
+                      >
+                      اطلب الآن
+                    </button>
+                  </div>
+                </div>
+
+                <div
+                  class="w-[300px] flex-none snap-start group overflow-hidden rounded-2xl border border-charcoal/5 bg-white transition-all hover:shadow-2xl dark:border-white/10 dark:bg-background-dark"
+                >
+                  <div class="relative aspect-[4/3] overflow-hidden">
+                    <img
+                      alt="Black Cod with Miso"
+                      class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+                      src="https://ik.imagekit.io/Gadrenkit/KisraMedia/logo.png?updatedAt=1770293392378"
+                    />
+                  </div>
+                  <div class="flex flex-col p-6 text-right">
+                    <div class="mb-2 flex items-center justify-between">
+                      <h3
+                        class="text-lg font-bold text-charcoal dark:text-white"
+                      >
+                        مديدة بلح
+                      </h3>
+                      <span class="text-lg font-black text-primary">120</span>
+                    </div>
+                    <p
+                      class="mb-6 text-sm leading-relaxed text-muted line-clamp-2"
+                    >
+                      1 علبة
+                    </p>
+                    <button
+                      class="flex w-full items-center justify-center gap-2 rounded-lg bg-charcoal py-3 text-sm font-bold text-white transition-all hover:bg-primary active:scale-95 dark:bg-white/10 dark:hover:bg-primary"
+                    >
+                      <span class="material-symbols-outlined text-lg"
+                        >touch_app</span
+                      >
+                      اطلب الآن
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Video -->
+          <section
+            class="relative -mx-4 overflow-hidden bg-charcoal py-32 lg:-mx-10 scroll-mt-24"
+            id="experience"
+          >
+            <!-- <div class="absolute inset-0 opacity-40">
+              <img
+                alt="Kitchen Background"
+                class="h-full w-full object-cover grayscale brightness-50"
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuACwK3Ke9ijtqUQ0uEtykP7IYO2iMRiCnx4thawI-7s7Wb-Vw8DulTEla_jXtFNBE6TQ9d4k-NSebrgRE7eXFCVgv9gmefrRRQo9FMl8uJvGYR6dPfJDQEF4cGPjyyQ50HVafF2TUkqXKOmgB7LrejgXVX3ugmvWzxV3fXuvhT6RF3tLqwlwqAIqyzvHOEJWuVaLCq68S_pp4bxh6xdaAEeRBtog4AjMIRsBrpqCaNH6aP8U8A4TfwRXMxhGLNglIoXvfSh0PvrkjmV"
+              />
+              <div
+                class="absolute inset-0 bg-gradient-to-b from-charcoal via-transparent to-charcoal"
+              ></div>
+            </div> -->
+            <div
+              class="relative mx-auto max-w-[1280px] px-4 lg:px-10 flex flex-col items-center"
+            >
+              <div class="mb-12 text-center">
+                <span
+                  class="mb-4 inline-block text-sm font-bold uppercase tracking-widest text-primary"
+                  >من داخل مطبخنا</span
+                >
+                <h2
+                  class="mb-4 text-4xl font-black tracking-tight text-white md:text-6xl"
+                >
+                  شاهد فن الطهي
+                </h2>
+                <p class="text-lg font-medium text-white/70">
+                  ألقِ نظرة داخل مطبخنا السحابي
+                </p>
+              </div>
+              <div
+                class="group relative w-full max-w-5xl overflow-hidden rounded-2xl border border-white/10 bg-black/40 shadow-2xl backdrop-blur-sm"
+              >
+                <div class="aspect-video relative">
+                  <video
+                    class="h-full w-full object-cover contrast-110 saturate-110 brightness-75"
+                    autoplay
+                    muted
+                    loop
+                    playsinline
+                  >
+                    <source
+                      src="https://ik.imagekit.io/Gadrenkit/KisraMedia/kisravideo.mp4?updatedAt=1770383531206.mp4"
+                      type="video/mp4"
+                    />
+                  </video>
+
+                  <!-- <div
+                    class="absolute inset-0 flex items-center justify-center"
+                  >
+                    <button
+                      class="flex h-20 w-20 items-center justify-center rounded-full bg-primary text-white shadow-2xl shadow-primary/40 transition-all hover:scale-110 active:scale-95 group-hover:bg-primary/90"
+                    >
+                      <span
+                        class="material-symbols-outlined text-4xl fill-current"
+                        style="font-variation-settings: &quot;FILL&quot; 1"
+                        >play_arrow</span
+                      >
+                    </button>
+                  </div> -->
+                  <div
+                    class="absolute bottom-6 left-6 right-6 flex flex-row-reverse items-center justify-between"
+                  >
+                    <div class="flex items-center gap-3">
+                      <div
+                        class="h-2 w-2 animate-pulse rounded-full bg-primary"
+                      ></div>
+                      <span
+                        class="text-xs font-bold uppercase tracking-widest text-white/90"
+                        >نماذج كسرة الفاخرة</span
+                      >
+                    </div>
+                    <!-- <span class="text-xs font-medium text-white/60">02:45</span> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Occasions -->
+          <section
+            class="relative -mx-4 overflow-hidden py-32 lg:-mx-10 scroll-mt-24"
+            id="catering"
+          >
+            <div class="absolute inset-0">
+              <img
+                alt="Luxurious catering event"
+                class="h-full w-full object-cover brightness-70"
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuChuSSwzGb_jNkaYMo0uY91LB6p_pw6h17z6dVDEBWQ1PJixOIlTGzPDiXs44qyj0gn5wQhVQ0InB6xFXfXzgnb8v98LSnZ8e91rv7f5ZRuPkSekcJgiWag0HOdECSXjcgOvVRq7U8-TRRTQuBlHAP6kA0DtZ-JWyxyN8_UW0e6dcUycTN0lF18wiYdTlkW6m96YBQD4OSFxmDINKYnEkRQt2MChmFC882S33t1BsHHx_c8jItCs_6D1CR75-fm9j9bStPETd2FSgcl"
+              />
+              <div class="absolute inset-0 bg-black/40"></div>
+            </div>
+            <div
+              class="relative mx-auto flex max-w-[1280px] flex-col items-center px-4 py-12 text-center lg:px-10"
+            >
+              <div class="max-w-3xl space-y-8">
+                <span
+                  class="text-sm font-bold uppercase tracking-widest text-primary"
+                  >التجهيزات والمناسبات</span
+                >
+                <h2
+                  class="text-4xl font-black tracking-tight text-white md:text-6xl"
+                >
+                  جاهزون لخدمة جميع مناسباتكم
+                </h2>
+                <p class="text-xl font-medium leading-relaxed text-white/90">
+                  من التجمعات العائلية الصغيرة إلى الفعاليات الكبيرة، كسرة يقدم
+                  خدمات بوفيه وصحون وتقديم متميزة تناسب احتياجاتكم.
+                </p>
+                <div class="flex justify-center pt-6">
+                  <button
+                    class="flex h-14 min-w-[200px] items-center justify-center rounded-xl bg-primary px-10 text-lg font-bold text-white shadow-2xl shadow-primary/40 transition-all hover:bg-primary/90 hover:scale-105 active:scale-95"
+                  >
+                    احجز الآن
+                  </button>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Reviews -->
+          <section
+            class="relative -mx-4 bg-black/5 py-24 dark:bg-white/5 lg:-mx-10 scroll-mt-24"
+            id="reviews"
+          >
+            <div class="mx-auto max-w-[1280px] px-4 lg:px-10">
+              <div class="mb-16 flex flex-col items-center gap-4 text-center">
+                <span
+                  class="text-sm font-bold uppercase tracking-widest text-primary"
+                  >آراء العملاء</span
+                >
+                <h2
+                  class="text-3xl font-black tracking-tight text-charcoal dark:text-white md:text-5xl"
+                >
+                  ماذا يقول عملاؤنا
+                </h2>
+              </div>
+              <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+                <div
+                  class="flex flex-col gap-6 rounded-2xl bg-white p-8 shadow-sm transition-all hover:shadow-md dark:bg-background-dark text-right"
+                >
+                  <div class="flex gap-1 justify-end">
+                    <span
+                      class="material-symbols-outlined text-[20px] fill-current text-primary"
+                      style="font-variation-settings: &quot;FILL&quot; 1"
+                      >star</span
+                    >
+                    <span
+                      class="material-symbols-outlined text-[20px] fill-current text-primary"
+                      style="font-variation-settings: &quot;FILL&quot; 1"
+                      >star</span
+                    >
+                    <span
+                      class="material-symbols-outlined text-[20px] fill-current text-primary"
+                      style="font-variation-settings: &quot;FILL&quot; 1"
+                      >star</span
+                    >
+                    <span
+                      class="material-symbols-outlined text-[20px] fill-current text-primary"
+                      style="font-variation-settings: &quot;FILL&quot; 1"
+                      >star</span
+                    >
+                    <span
+                      class="material-symbols-outlined text-[20px] fill-current text-primary"
+                      style="font-variation-settings: &quot;FILL&quot; 1"
+                      >star</span
+                    >
+                  </div>
+                  <p
+                    class="text-lg leading-relaxed text-charcoal/80 dark:text-white/80 italic"
+                  >
+                    " احلي تجربة لي مع مطبخ كسرة الذوق و التعامل و الالتزام و
+                    جودة الاصناف"
+                  </p>
+                  <div
+                    class="flex items-center gap-4 border-t border-charcoal/5 pt-6 dark:border-white/10 flex-row-reverse"
+                  >
+                    <div>
+                      <h4 class="font-bold text-charcoal dark:text-white">
+                        جميلة عبدالله
+                      </h4>
+                      <!-- <p class="text-xs font-medium text-muted uppercase">
+                        خبير طعام معتمد
+                      </p> -->
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flex flex-col gap-6 rounded-2xl bg-white p-8 shadow-sm transition-all hover:shadow-md dark:bg-background-dark text-right"
+                >
+                  <div class="flex gap-1 justify-end">
+                    <span
+                      class="material-symbols-outlined text-[20px] fill-current text-primary"
+                      style="font-variation-settings: &quot;FILL&quot; 1"
+                      >star</span
+                    >
+                    <span
+                      class="material-symbols-outlined text-[20px] fill-current text-primary"
+                      style="font-variation-settings: &quot;FILL&quot; 1"
+                      >star</span
+                    >
+                    <span
+                      class="material-symbols-outlined text-[20px] fill-current text-primary"
+                      style="font-variation-settings: &quot;FILL&quot; 1"
+                      >star</span
+                    >
+                    <span
+                      class="material-symbols-outlined text-[20px] fill-current text-primary"
+                      style="font-variation-settings: &quot;FILL&quot; 1"
+                      >star</span
+                    >
+                    <span
+                      class="material-symbols-outlined text-[20px] fill-current text-primary"
+                      style="font-variation-settings: &quot;FILL&quot; 1"
+                      >star</span
+                    >
+                  </div>
+                  <p
+                    class="text-lg leading-relaxed text-charcoal/80 dark:text-white/80 italic"
+                  >
+                    "اهتمام مذهل بالتفاصيل. التغليف حافظ علي شكل الاطباق و الطعم
+                    كان لذيذ جداً."
+                  </p>
+                  <div
+                    class="flex items-center gap-4 border-t border-charcoal/5 pt-6 dark:border-white/10 flex-row-reverse"
+                  >
+                    <div>
+                      <h4 class="font-bold text-charcoal dark:text-white">
+                        هالة
+                      </h4>
+                      <!-- <p class="text-xs font-medium text-muted uppercase">
+                        عاشق للصحة
+                      </p> -->
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flex flex-col gap-6 rounded-2xl bg-white p-8 shadow-sm transition-all hover:shadow-md dark:bg-background-dark text-right"
+                >
+                  <div class="flex gap-1 justify-end">
+                    <span
+                      class="material-symbols-outlined text-[20px] fill-current text-primary"
+                      style="font-variation-settings: &quot;FILL&quot; 1"
+                      >star</span
+                    >
+                    <span
+                      class="material-symbols-outlined text-[20px] fill-current text-primary"
+                      style="font-variation-settings: &quot;FILL&quot; 1"
+                      >star</span
+                    >
+                    <span
+                      class="material-symbols-outlined text-[20px] fill-current text-primary"
+                      style="font-variation-settings: &quot;FILL&quot; 1"
+                      >star</span
+                    >
+                    <span
+                      class="material-symbols-outlined text-[20px] fill-current text-primary"
+                      style="font-variation-settings: &quot;FILL&quot; 1"
+                      >star</span
+                    >
+                    <span
+                      class="material-symbols-outlined text-[20px] fill-current text-primary"
+                      style="font-variation-settings: &quot;FILL&quot; 1"
+                      >star</span
+                    >
+                  </div>
+                  <p
+                    class="text-lg leading-relaxed text-charcoal/80 dark:text-white/80 italic"
+                  >
+                    " واضح انه بيستعملوا توابل أصيلة ونكهاتها مميزة.. كسرة في
+                    مستوى خاص بها."
+                  </p>
+                  <div
+                    class="flex items-center gap-4 border-t border-charcoal/5 pt-6 dark:border-white/10 flex-row-reverse"
+                  >
+                    <div>
+                      <h4 class="font-bold text-charcoal dark:text-white">
+                        الهام محمد
+                      </h4>
+                      <!-- <p class="text-xs font-medium text-muted uppercase">
+                        ناقدة طهي
+                      </p> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="py-24 scroll-mt-24" id="contact">
+            <div class="grid grid-cols-1 gap-12 lg:grid-cols-2">
+              <div class="flex flex-col gap-8 order-1 text-right">
+                <div class="flex flex-col gap-3">
+                  <span
+                    class="text-sm font-bold uppercase tracking-widest text-primary"
+                    >اتصل بنا</span
+                  >
+                  <h2
+                    class="text-4xl font-black tracking-tight text-charcoal dark:text-white lg:text-5xl"
+                  >
+                    تواصل <span class="text-primary">معنا</span>
+                  </h2>
+                  <p class="mt-4 text-lg text-muted">
+                    لديك استفسارات حول قائمتنا أو مناطق التوصيل؟ يسعدنا سماع ذلك
+                    منك. فريقنا هنا لضمان أن تكون تجربتك مع كسرة مثالية.
+                  </p>
+                </div>
+                <div class="flex flex-col gap-6">
+                  <div class="flex items-start gap-4 flex-row-reverse">
+                    <div
+                      class="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-primary/10 text-primary"
+                    >
+                      <span class="material-symbols-outlined">call</span>
+                    </div>
+                    <div class="text-right">
+                      <h4
+                        class="text-sm font-bold uppercase tracking-wider text-charcoal dark:text-white"
+                      >
+                        الهاتف
+                      </h4>
+                      <p class="text-lg font-medium text-muted" dir="ltr">
+                        +249 (91) 254-4242
+                      </p>
+                    </div>
+                  </div>
+                  <div class="flex items-start gap-4 flex-row-reverse">
+                    <div
+                      class="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-primary/10 text-primary"
+                    >
+                      <span class="material-symbols-outlined">mail</span>
+                    </div>
+                    <div class="text-right">
+                      <h4
+                        class="text-sm font-bold uppercase tracking-wider text-charcoal dark:text-white"
+                      >
+                        البريد الإلكتروني
+                      </h4>
+                      <p class="text-lg font-medium text-muted">
+                        hello@kisrakitchen.com
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="relative overflow-hidden rounded-3xl bg-white p-10 shadow-2xl dark:bg-background-dark border border-charcoal/5 dark:border-white/10 order-2"
+              >
+                <div class="relative z-10 flex flex-col gap-8">
+                  <div class="flex items-center gap-3 flex-row-reverse">
+                    <span
+                      class="material-symbols-outlined text-primary text-3xl"
+                      >hub</span
+                    >
+                    <h3
+                      class="text-2xl font-black text-charcoal dark:text-white"
+                    >
+                      مواقع الخدمة
+                    </h3>
+                  </div>
+                  <div class="grid grid-cols-1 gap-8">
+                    <div
+                      class="group flex items-start gap-4 border-b border-charcoal/5 pb-6 dark:border-white/10 last:border-0 last:pb-0 flex-row-reverse"
+                    >
+                      <div
+                        class="mt-1 flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-primary/5 text-primary group-hover:bg-primary group-hover:text-white transition-colors"
+                      >
+                        <span class="material-symbols-outlined text-xl"
+                          >restaurant</span
+                        >
+                      </div>
+                      <div class="flex flex-col gap-1 text-right">
+                        <h4 class="font-bold text-charcoal dark:text-white">
+                          فرع أمدرمان - الواحة
+                        </h4>
+                        <p class="text-sm text-muted leading-relaxed">
+                          شارع السيسي، امدرمان<br />ساعات العمل: 9:00 صباحاً -
+                          11:00 مساءً
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      class="group flex items-start gap-4 border-b border-charcoal/5 pb-6 dark:border-white/10 last:border-0 last:pb-0 flex-row-reverse"
+                    >
+                      <div
+                        class="mt-1 flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-primary/5 text-primary group-hover:bg-primary group-hover:text-white transition-colors"
+                      >
+                        <span class="material-symbols-outlined text-xl"
+                          >restaurant</span
+                        >
+                      </div>
+                      <div class="flex flex-col gap-1 text-right">
+                        <h4 class="font-bold text-charcoal dark:text-white">
+                          فرع الثورة - الحارة التاسعة
+                        </h4>
+                        <p class="text-sm text-muted leading-relaxed">
+                          شارع الشنقيطي، الثورة<br />ساعات العمل: 9:00 صباحاً -
+                          12:00 منتصف الليل
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+      <footer
+        class="border-t border-charcoal/5 bg-white px-6 py-16 dark:border-white/10 dark:bg-background-dark"
+      >
+        <div class="mx-auto flex max-w-[1280px] flex-col items-center gap-10">
+          <div class="flex items-center">
+            <img
+              src="https://ik.imagekit.io/Gadrenkit/KisraMedia/logo.png"
+              alt="KISRA Logo"
+              class="h-16 w-auto object-contain"
+            />
+          </div>
+          <!-- <div class="flex flex-wrap justify-center gap-x-12 gap-y-6">
+            <a
+              class="text-sm font-medium text-muted hover:text-primary transition-colors"
+              href="#"
+              >سياسة الخصوصية</a
+            >
+            <a
+              class="text-sm font-medium text-muted hover:text-primary transition-colors"
+              href="#"
+              >شروط الخدمة</a
+            >
+            <a
+              class="text-sm font-medium text-muted hover:text-primary transition-colors"
+              href="#"
+              >الأسئلة الشائعة</a
+            >
+            <a
+              class="text-sm font-medium text-muted hover:text-primary transition-colors"
+              href="#"
+              >خريطة الموقع</a
+            >
+          </div> -->
+          <div class="flex items-center gap-6">
+            <a
+              aria-label="Facebook"
+              class="flex h-10 w-10 items-center justify-center rounded-full bg-charcoal text-white transition-all hover:bg-primary hover:scale-110 active:scale-95 shadow-md shadow-charcoal/20 dark:bg-white/10 dark:hover:bg-primary"
+              href="#"
+            >
+              <svg
+                class="h-5 w-5 fill-current"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"
+                ></path>
+              </svg>
+            </a>
+            <a
+              aria-label="Instagram"
+              class="flex h-10 w-10 items-center justify-center rounded-full bg-charcoal text-white transition-all hover:bg-primary hover:scale-110 active:scale-95 shadow-md shadow-charcoal/20 dark:bg-white/10 dark:hover:bg-primary"
+              href="#"
+            >
+              <svg
+                class="h-5 w-5 fill-current"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.332 3.608 1.308.975.975 1.245 2.242 1.308 3.608.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.062 1.366-.332 2.633-1.308 3.608-.975.975-2.242 1.245-3.608 1.308-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.366-.062-2.633-.332-3.608-1.308-.975-.975-1.245-2.242-1.308-3.608-.058-1.266-.07-1.646-.07-4.85s.012-3.584.07-4.85c.062-1.366.332-2.633 1.308-3.608.975-.975 2.242-1.245 3.608-1.308 1.266-.058-1.646-.07 4.85-.07zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948s.014 3.667.072 4.947c.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072s3.667-.014 4.947-.072c4.358-.2 6.78-2.618 6.98-6.98.058-1.281.072-1.689.072-4.948s-.014-3.667-.072-4.947c-.2-4.358-2.618-6.78-6.98-6.98-1.28-.058-1.689-.072-4.948-.072zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.162 6.162 6.162 6.162-2.759-6.162-6.162-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.791-4-4s1.791-4 4-4 4 1.791 4 4-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
+                ></path>
+              </svg>
+            </a>
+          </div>
+          <div class="text-center">
+            <p class="text-sm font-medium text-muted">
+              © 2024 مطبخ كسرة السحابي. جميع الحقوق محفوظة.
+            </p>
+            <p class="mt-1 text-xs text-muted/60 uppercase tracking-widest">
+              صنع من أجل التميز في الطهي
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      const slider = document.getElementById("meatSlider");
+      const nextBtn = document.getElementById("meatNext");
+      const prevBtn = document.getElementById("meatPrev");
+
+      function getMaxScroll() {
+        return slider.scrollWidth - slider.clientWidth;
+      }
+
+      function isRTL() {
+        return getComputedStyle(slider).direction === "rtl";
+      }
+
+      function updateArrows() {
+        const maxScroll = getMaxScroll();
+        const scrollLeft = Math.abs(slider.scrollLeft);
+
+        prevBtn.disabled = scrollLeft <= 5;
+        nextBtn.disabled = scrollLeft >= maxScroll - 5;
+      }
+
+      function scrollMeat(direction) {
+        const amount = 320;
+        const rtl = isRTL();
+
+        slider.scrollBy({
+          left: rtl ? -direction * amount : direction * amount,
+          behavior: "smooth",
+        });
+
+        setTimeout(updateArrows, 300);
+      }
+
+      slider.addEventListener("scroll", updateArrows);
+      updateArrows();
+    </script>
+  </body>
+</html>
