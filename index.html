@@ -159,17 +159,6 @@
                 "
               >
                 <div class="max-w-[640px] space-y-6 text-right">
-                  <!-- <div
-                    class="inline-flex items-center gap-2 rounded-full bg-primary/20 px-3 py-1 backdrop-blur-sm"
-                  >
-                    <span class="material-symbols-outlined text-primary text-sm"
-                      >auto_awesome</span
-                    >
-                    <span
-                      class="text-xs font-bold uppercase tracking-widest text-primary"
-                      >تميز بإشراف الشيف</span
-                    >
-                  </div> -->
                   <h1
                     class="text-4xl font-black leading-[1.2] text-white @[480px]:text-6xl lg:text-7xl"
                   >
@@ -182,15 +171,6 @@
                     علينا التجهيز و عليكم التقديم الاستمتاع بألذ الاصناف
                   </p>
                   <div class="flex flex-wrap gap-4 pt-4">
-                    <!-- <button
-                      class="flex h-12 min-w-[160px] items-center justify-center gap-2 rounded-lg bg-primary px-8 text-base font-bold text-white shadow-xl shadow-primary/30 transition-all hover:bg-primary/90"
-                      href="#menu"
-                    >
-                      <span class="material-symbols-outlined text-xl"
-                        >restaurant</span
-                      >
-                      عرض القائمة
-                    </button> -->
                     <a
                       href="#menu"
                       class="flex h-10 min-w-[120px] items-center justify-center rounded-lg bg-primary px-6 text-sm font-bold text-white shadow-lg shadow-primary/20 transition-transform hover:scale-105 active:scale-95"
@@ -404,16 +384,13 @@
 
                 <div class="flex items-center gap-2">
                   <button
-                    id="meatNext"
-                    onclick="scrollMeat(1)"
-                    class="flex h-10 w-10 items-center justify-center rounded-full border border-charcoal/10 bg-white transition-all hover:bg-primary hover:text-white disabled:opacity-40 disabled:cursor-not-allowed dark:border-white/10 dark:bg-background-dark"
+                    class="slider-next flex h-10 w-10 items-center justify-center rounded-full border border-charcoal/10 bg-white transition-all hover:bg-primary hover:text-white disabled:opacity-40 disabled:cursor-not-allowed dark:border-white/10 dark:bg-background-dark"
                   >
                     <span class="material-symbols-outlined">chevron_right</span>
                   </button>
+
                   <button
-                    id="meatPrev"
-                    onclick="scrollMeat(-1)"
-                    class="flex h-10 w-10 items-center justify-center rounded-full border border-charcoal/10 bg-white transition-all hover:bg-primary hover:text-white disabled:opacity-40 disabled:cursor-not-allowed dark:border-white/10 dark:bg-background-dark"
+                    class="slider-prev flex h-10 w-10 items-center justify-center rounded-full border border-charcoal/10 bg-white transition-all hover:bg-primary hover:text-white disabled:opacity-40 disabled:cursor-not-allowed dark:border-white/10 dark:bg-background-dark"
                   >
                     <span class="material-symbols-outlined">chevron_left</span>
                   </button>
@@ -421,9 +398,8 @@
               </div>
 
               <div
-                id="meatSlider"
                 dir="ltr"
-                class="flex gap-6 overflow-x-auto scroll-smooth scrollbar-hide py-4"
+                class="menu-slider flex gap-6 overflow-x-auto scroll-smooth scrollbar-hide py-4"
               >
                 <div
                   class="w-[300px] flex-none snap-start group overflow-hidden rounded-2xl border border-charcoal/5 bg-white transition-all hover:shadow-2xl dark:border-white/10 dark:bg-background-dark"
@@ -625,16 +601,13 @@
 
                 <div class="flex items-center gap-2">
                   <button
-                    id="meatNext"
-                    onclick="scrollMeat(1)"
-                    class="flex h-10 w-10 items-center justify-center rounded-full border border-charcoal/10 bg-white transition-all hover:bg-primary hover:text-white disabled:opacity-40 disabled:cursor-not-allowed dark:border-white/10 dark:bg-background-dark"
+                    class="slider-next flex h-10 w-10 items-center justify-center rounded-full border border-charcoal/10 bg-white transition-all hover:bg-primary hover:text-white disabled:opacity-40 disabled:cursor-not-allowed dark:border-white/10 dark:bg-background-dark"
                   >
                     <span class="material-symbols-outlined">chevron_right</span>
                   </button>
+
                   <button
-                    id="meatPrev"
-                    onclick="scrollMeat(-1)"
-                    class="flex h-10 w-10 items-center justify-center rounded-full border border-charcoal/10 bg-white transition-all hover:bg-primary hover:text-white disabled:opacity-40 disabled:cursor-not-allowed dark:border-white/10 dark:bg-background-dark"
+                    class="slider-prev flex h-10 w-10 items-center justify-center rounded-full border border-charcoal/10 bg-white transition-all hover:bg-primary hover:text-white disabled:opacity-40 disabled:cursor-not-allowed dark:border-white/10 dark:bg-background-dark"
                   >
                     <span class="material-symbols-outlined">chevron_left</span>
                   </button>
@@ -642,9 +615,8 @@
               </div>
 
               <div
-                id="meatSlider"
                 dir="ltr"
-                class="flex gap-6 overflow-x-auto scroll-smooth scrollbar-hide py-4"
+                class="menu-slider flex gap-6 overflow-x-auto scroll-smooth scrollbar-hide py-4"
               >
                 <div
                   class="w-[300px] flex-none snap-start group overflow-hidden rounded-2xl border border-charcoal/5 bg-white transition-all hover:shadow-2xl dark:border-white/10 dark:bg-background-dark"
@@ -810,16 +782,13 @@
 
                 <div class="flex items-center gap-2">
                   <button
-                    id="meatNext"
-                    onclick="scrollMeat(1)"
-                    class="flex h-10 w-10 items-center justify-center rounded-full border border-charcoal/10 bg-white transition-all hover:bg-primary hover:text-white disabled:opacity-40 disabled:cursor-not-allowed dark:border-white/10 dark:bg-background-dark"
+                    class="slider-next flex h-10 w-10 items-center justify-center rounded-full border border-charcoal/10 bg-white transition-all hover:bg-primary hover:text-white disabled:opacity-40 disabled:cursor-not-allowed dark:border-white/10 dark:bg-background-dark"
                   >
                     <span class="material-symbols-outlined">chevron_right</span>
                   </button>
+
                   <button
-                    id="meatPrev"
-                    onclick="scrollMeat(-1)"
-                    class="flex h-10 w-10 items-center justify-center rounded-full border border-charcoal/10 bg-white transition-all hover:bg-primary hover:text-white disabled:opacity-40 disabled:cursor-not-allowed dark:border-white/10 dark:bg-background-dark"
+                    class="slider-prev flex h-10 w-10 items-center justify-center rounded-full border border-charcoal/10 bg-white transition-all hover:bg-primary hover:text-white disabled:opacity-40 disabled:cursor-not-allowed dark:border-white/10 dark:bg-background-dark"
                   >
                     <span class="material-symbols-outlined">chevron_left</span>
                   </button>
@@ -827,9 +796,8 @@
               </div>
 
               <div
-                id="meatSlider"
                 dir="ltr"
-                class="flex gap-6 overflow-x-auto scroll-smooth scrollbar-hide py-4"
+                class="menu-slider flex gap-6 overflow-x-auto scroll-smooth scrollbar-hide py-4"
               >
                 <div
                   class="w-[300px] flex-none snap-start group overflow-hidden rounded-2xl border border-charcoal/5 bg-white transition-all hover:shadow-2xl dark:border-white/10 dark:bg-background-dark"
@@ -1067,16 +1035,13 @@
 
                 <div class="flex items-center gap-2">
                   <button
-                    id="meatNext"
-                    onclick="scrollMeat(1)"
-                    class="flex h-10 w-10 items-center justify-center rounded-full border border-charcoal/10 bg-white transition-all hover:bg-primary hover:text-white disabled:opacity-40 disabled:cursor-not-allowed dark:border-white/10 dark:bg-background-dark"
+                    class="slider-next flex h-10 w-10 items-center justify-center rounded-full border border-charcoal/10 bg-white transition-all hover:bg-primary hover:text-white disabled:opacity-40 disabled:cursor-not-allowed dark:border-white/10 dark:bg-background-dark"
                   >
                     <span class="material-symbols-outlined">chevron_right</span>
                   </button>
+
                   <button
-                    id="meatPrev"
-                    onclick="scrollMeat(-1)"
-                    class="flex h-10 w-10 items-center justify-center rounded-full border border-charcoal/10 bg-white transition-all hover:bg-primary hover:text-white disabled:opacity-40 disabled:cursor-not-allowed dark:border-white/10 dark:bg-background-dark"
+                    class="slider-prev flex h-10 w-10 items-center justify-center rounded-full border border-charcoal/10 bg-white transition-all hover:bg-primary hover:text-white disabled:opacity-40 disabled:cursor-not-allowed dark:border-white/10 dark:bg-background-dark"
                   >
                     <span class="material-symbols-outlined">chevron_left</span>
                   </button>
@@ -1084,9 +1049,8 @@
               </div>
 
               <div
-                id="meatSlider"
                 dir="ltr"
-                class="flex gap-6 overflow-x-auto scroll-smooth scrollbar-hide py-4"
+                class="menu-slider flex gap-6 overflow-x-auto scroll-smooth scrollbar-hide py-4"
               >
                 <div
                   class="w-[300px] flex-none snap-start group overflow-hidden rounded-2xl border border-charcoal/5 bg-white transition-all hover:shadow-2xl dark:border-white/10 dark:bg-background-dark"
@@ -1252,16 +1216,13 @@
 
                 <div class="flex items-center gap-2">
                   <button
-                    id="meatNext"
-                    onclick="scrollMeat(1)"
-                    class="flex h-10 w-10 items-center justify-center rounded-full border border-charcoal/10 bg-white transition-all hover:bg-primary hover:text-white disabled:opacity-40 disabled:cursor-not-allowed dark:border-white/10 dark:bg-background-dark"
+                    class="slider-next flex h-10 w-10 items-center justify-center rounded-full border border-charcoal/10 bg-white transition-all hover:bg-primary hover:text-white disabled:opacity-40 disabled:cursor-not-allowed dark:border-white/10 dark:bg-background-dark"
                   >
                     <span class="material-symbols-outlined">chevron_right</span>
                   </button>
+
                   <button
-                    id="meatPrev"
-                    onclick="scrollMeat(-1)"
-                    class="flex h-10 w-10 items-center justify-center rounded-full border border-charcoal/10 bg-white transition-all hover:bg-primary hover:text-white disabled:opacity-40 disabled:cursor-not-allowed dark:border-white/10 dark:bg-background-dark"
+                    class="slider-prev flex h-10 w-10 items-center justify-center rounded-full border border-charcoal/10 bg-white transition-all hover:bg-primary hover:text-white disabled:opacity-40 disabled:cursor-not-allowed dark:border-white/10 dark:bg-background-dark"
                   >
                     <span class="material-symbols-outlined">chevron_left</span>
                   </button>
@@ -1269,9 +1230,8 @@
               </div>
 
               <div
-                id="meatSlider"
                 dir="ltr"
-                class="flex gap-6 overflow-x-auto scroll-smooth scrollbar-hide py-4"
+                class="menu-slider flex gap-6 overflow-x-auto scroll-smooth scrollbar-hide py-4"
               >
                 <div
                   class="w-[300px] flex-none snap-start group overflow-hidden rounded-2xl border border-charcoal/5 bg-white transition-all hover:shadow-2xl dark:border-white/10 dark:bg-background-dark"
@@ -1437,16 +1397,13 @@
 
                 <div class="flex items-center gap-2">
                   <button
-                    id="meatNext"
-                    onclick="scrollMeat(1)"
-                    class="flex h-10 w-10 items-center justify-center rounded-full border border-charcoal/10 bg-white transition-all hover:bg-primary hover:text-white disabled:opacity-40 disabled:cursor-not-allowed dark:border-white/10 dark:bg-background-dark"
+                    class="slider-next flex h-10 w-10 items-center justify-center rounded-full border border-charcoal/10 bg-white transition-all hover:bg-primary hover:text-white disabled:opacity-40 disabled:cursor-not-allowed dark:border-white/10 dark:bg-background-dark"
                   >
                     <span class="material-symbols-outlined">chevron_right</span>
                   </button>
+
                   <button
-                    id="meatPrev"
-                    onclick="scrollMeat(-1)"
-                    class="flex h-10 w-10 items-center justify-center rounded-full border border-charcoal/10 bg-white transition-all hover:bg-primary hover:text-white disabled:opacity-40 disabled:cursor-not-allowed dark:border-white/10 dark:bg-background-dark"
+                    class="slider-prev flex h-10 w-10 items-center justify-center rounded-full border border-charcoal/10 bg-white transition-all hover:bg-primary hover:text-white disabled:opacity-40 disabled:cursor-not-allowed dark:border-white/10 dark:bg-background-dark"
                   >
                     <span class="material-symbols-outlined">chevron_left</span>
                   </button>
@@ -1454,9 +1411,8 @@
               </div>
 
               <div
-                id="meatSlider"
                 dir="ltr"
-                class="flex gap-6 overflow-x-auto scroll-smooth scrollbar-hide py-4"
+                class="menu-slider flex gap-6 overflow-x-auto scroll-smooth scrollbar-hide py-4"
               >
                 <div
                   class="w-[300px] flex-none snap-start group overflow-hidden rounded-2xl border border-charcoal/5 bg-white transition-all hover:shadow-2xl dark:border-white/10 dark:bg-background-dark"
@@ -1622,16 +1578,13 @@
 
                 <div class="flex items-center gap-2">
                   <button
-                    id="meatNext"
-                    onclick="scrollMeat(1)"
-                    class="flex h-10 w-10 items-center justify-center rounded-full border border-charcoal/10 bg-white transition-all hover:bg-primary hover:text-white disabled:opacity-40 disabled:cursor-not-allowed dark:border-white/10 dark:bg-background-dark"
+                    class="slider-next flex h-10 w-10 items-center justify-center rounded-full border border-charcoal/10 bg-white transition-all hover:bg-primary hover:text-white disabled:opacity-40 disabled:cursor-not-allowed dark:border-white/10 dark:bg-background-dark"
                   >
                     <span class="material-symbols-outlined">chevron_right</span>
                   </button>
+
                   <button
-                    id="meatPrev"
-                    onclick="scrollMeat(-1)"
-                    class="flex h-10 w-10 items-center justify-center rounded-full border border-charcoal/10 bg-white transition-all hover:bg-primary hover:text-white disabled:opacity-40 disabled:cursor-not-allowed dark:border-white/10 dark:bg-background-dark"
+                    class="slider-prev flex h-10 w-10 items-center justify-center rounded-full border border-charcoal/10 bg-white transition-all hover:bg-primary hover:text-white disabled:opacity-40 disabled:cursor-not-allowed dark:border-white/10 dark:bg-background-dark"
                   >
                     <span class="material-symbols-outlined">chevron_left</span>
                   </button>
@@ -1639,9 +1592,8 @@
               </div>
 
               <div
-                id="meatSlider"
                 dir="ltr"
-                class="flex gap-6 overflow-x-auto scroll-smooth scrollbar-hide py-4"
+                class="menu-slider flex gap-6 overflow-x-auto scroll-smooth scrollbar-hide py-4"
               >
                 <div
                   class="w-[300px] flex-none snap-start group overflow-hidden rounded-2xl border border-charcoal/5 bg-white transition-all hover:shadow-2xl dark:border-white/10 dark:bg-background-dark"
@@ -2282,40 +2234,32 @@
     </div>
 
     <script>
-      const slider = document.getElementById("meatSlider");
-      const nextBtn = document.getElementById("meatNext");
-      const prevBtn = document.getElementById("meatPrev");
+      document.querySelectorAll(".menu-slider").forEach((slider) => {
+        const section = slider.closest(".flex.flex-col");
+        const nextBtn = section.querySelector(".slider-next");
+        const prevBtn = section.querySelector(".slider-prev");
 
-      function getMaxScroll() {
-        return slider.scrollWidth - slider.clientWidth;
-      }
+        const scrollAmount = 320; // عرض الكارد + gap
 
-      function isRTL() {
-        return getComputedStyle(slider).direction === "rtl";
-      }
-
-      function updateArrows() {
-        const maxScroll = getMaxScroll();
-        const scrollLeft = Math.abs(slider.scrollLeft);
-
-        prevBtn.disabled = scrollLeft <= 5;
-        nextBtn.disabled = scrollLeft >= maxScroll - 5;
-      }
-
-      function scrollMeat(direction) {
-        const amount = 320;
-        const rtl = isRTL();
-
-        slider.scrollBy({
-          left: rtl ? -direction * amount : direction * amount,
-          behavior: "smooth",
+        nextBtn.addEventListener("click", () => {
+          slider.scrollBy({ left: scrollAmount, behavior: "smooth" });
+          updateButtons();
         });
 
-        setTimeout(updateArrows, 300);
-      }
+        prevBtn.addEventListener("click", () => {
+          slider.scrollBy({ left: -scrollAmount, behavior: "smooth" });
+          updateButtons();
+        });
 
-      slider.addEventListener("scroll", updateArrows);
-      updateArrows();
+        function updateButtons() {
+          prevBtn.disabled = slider.scrollLeft <= 0;
+          nextBtn.disabled =
+            slider.scrollLeft + slider.clientWidth >= slider.scrollWidth - 5;
+        }
+
+        slider.addEventListener("scroll", updateButtons);
+        updateButtons();
+      });
     </script>
   </body>
 </html>
