@@ -65,63 +65,91 @@
   <body
     class="bg-background-light dark:bg-background-dark font-display text-charcoal dark:text-white transition-colors duration-300"
   >
-    <!-- Top Nav Bar -->
-
     <div class="relative flex min-h-screen flex-col overflow-x-hidden">
       <div
         class="fixed top-0 z-50 w-full border-b border-solid border-charcoal/5 bg-background-light/80 backdrop-blur-md dark:border-white/10 dark:bg-background-dark/80"
       >
-        <header
-          class="fixed top-0 z-50 w-full bg-white dark:bg-charcoal shadow"
+        <div
+          class="mx-auto flex max-w-[1280px] items-center justify-between px-6 py-3 lg:px-20"
         >
-          <div
-            class="mx-auto flex max-w-[1280px] items-center justify-between px-6 py-3 lg:px-20"
-          >
-            <!-- Logo -->
-            <div class="flex items-center">
-              <img
-                alt="KISRA Logo"
-                class="h-12 w-auto object-contain"
-                src="https://ik.imagekit.io/Gadrenkit/KisraMedia/logo.png"
-              />
-            </div>
-
-            <!-- Desktop Nav -->
-            <div
-              class="hidden flex-1 items-center justify-start gap-10 md:flex pr-12"
-            >
-              <nav class="flex items-center gap-8">
-                <a class="nav-link" href="#">الرئيسية</a>
-                <a class="nav-link" href="#why-us">لماذا نحن</a>
-                <a class="nav-link" href="#our-story">قصتنا</a>
-                <a class="nav-link" href="#menu">القائمة</a>
-                <a class="nav-link" href="#catering">مناسباتنا</a>
-                <a class="nav-link" href="#reviews">آراء العملاء</a>
-                <a class="nav-link" href="#contact">اتصل بنا</a>
-              </nav>
-            </div>
-
-            <!-- Desktop CTA -->
-            <div class="hidden md:block">
-              <a
-                href="https://wa.me/249912544242"
-                class="flex h-10 min-w-[120px] items-center justify-center rounded-lg bg-primary px-6 text-sm font-bold text-white shadow-lg shadow-primary/20 transition-transform hover:scale-105 active:scale-95"
-              >
-                اطلب الآن
-              </a>
-            </div>
-
-            <!-- Mobile Button -->
-            <button
-              id="menuBtn"
-              class="md:hidden text-3xl text-charcoal dark:text-white"
-              aria-label="Toggle Menu"
-            >
-              ☰
-            </button>
+          <!-- LOGO -->
+          <div class="flex items-center">
+            <img
+              alt="KISRA Logo"
+              class="h-12 w-auto object-contain"
+              src="https://ik.imagekit.io/Gadrenkit/KisraMedia/logo.png"
+            />
           </div>
-        </header>
+
+          <!-- Top Nav Bar -->
+          <div
+            class="hidden flex-1 items-center justify-start gap-10 md:flex pr-12"
+          >
+            <nav class="flex items-center gap-8">
+              <a
+                class="text-sm font-semibold text-charcoal hover:text-primary dark:text-white dark:hover:text-primary"
+                href="#"
+                >الرئيسية</a
+              >
+              <a
+                class="text-sm font-semibold text-charcoal/70 hover:text-primary dark:text-white/70 dark:hover:text-primary"
+                href="#why-us"
+                >لماذا نحن</a
+              >
+              <a
+                class="text-sm font-semibold text-charcoal/70 hover:text-primary dark:text-white/70 dark:hover:text-primary"
+                href="#our-story"
+                >قصتنا</a
+              >
+              <a
+                class="text-sm font-semibold text-charcoal/70 hover:text-primary dark:text-white/70 dark:hover:text-primary"
+                href="#menu"
+                >القائمة</a
+              >
+              <a
+                class="text-sm font-semibold text-charcoal/70 hover:text-primary dark:text-white/70 dark:hover:text-primary"
+                href="#catering"
+                >مناسباتنا</a
+              >
+              <a
+                class="text-sm font-semibold text-charcoal/70 hover:text-primary dark:text-white/70 dark:hover:text-primary"
+                href="#reviews"
+                >آراء العملاء</a
+              >
+              <a
+                class="text-sm font-semibold text-charcoal/70 hover:text-primary dark:text-white/70 dark:hover:text-primary"
+                href="#contact"
+                >اتصل بنا</a
+              >
+            </nav>
+          </div>
+
+          <!-- ORDER BUTTON -->
+          <div class="hidden md:block">
+            <a
+              href="https://wa.me/249912544242"
+              class="flex h-10 min-w-[120px] items-center justify-center rounded-lg bg-primary px-6 text-sm font-bold text-white shadow-lg shadow-primary/20 transition-transform hover:scale-105 active:scale-95"
+            >
+              اطلب الآن
+            </a>
+          </div>
+          <div class="md:hidden">
+            <span
+              class="material-symbols-outlined text-charcoal dark:text-white"
+              >menu</span
+            >
+          </div>
+
+          <button
+            id="menuBtn"
+            class="md:hidden text-3xl text-charcoal dark:text-white"
+            aria-label="Toggle Menu"
+          >
+            ☰
+          </button>
+        </div>
       </div>
+
       <!-- Mobile Menu -->
       <div
         id="mobileMenu"
@@ -2276,6 +2304,7 @@
         updateButtons();
       });
     </script>
+
     <script>
       const btn = document.getElementById("menuBtn");
       const menu = document.getElementById("mobileMenu");
